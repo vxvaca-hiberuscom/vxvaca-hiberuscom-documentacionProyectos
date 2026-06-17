@@ -1,0 +1,125 @@
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038>gradlew.bat bootRun --args="--spring.profiles.active=local --server.port=8085"
+
+> Task :generateJavaFromWsdl
+Generando clases desde: ORQClientes0038.wsdl
+   Γ£ô Usando binding global: jaxb-bindings.xml
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Loading FrontEnd jaxws ...
+Loading DataBinding jaxb ...
+wsdl2java -d C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\build\generated\sources\wsdl -p com.pichincha.sp.generated -verbose -autoNameResolution -xjc-enableIntrospection -xjc-XautoNameResolution -exsh true -mark-generated -b C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\gradle\wrapper\jaxb-bindings.xml C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\resources\legacy\ORQClientes0038.wsdl
+wsdl2java - Apache CXF 4.1.1
+
+
+> Task :postProcessGeneratedWsdl
+Γ£à Post-procesamiento unificado completado
+
+> Task :compileJava
+Note: MapStruct: Using accessor naming strategy: org.mapstruct.ap.spi.DefaultAccessorNamingStrategy
+Note: MapStruct: Using builder provider: org.mapstruct.ap.spi.DefaultBuilderProvider
+Note: MapStruct: Using enum naming strategy: org.mapstruct.ap.spi.DefaultEnumMappingStrategy
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0020AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0060AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.input.adapter.rest.mapper.ORQClientes0038SoapMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0101AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0038AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0055AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0104AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsTecnicos0076AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0072AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0099AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0154AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0108AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0029AdapterMapper.
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:73: error: cannot find symbol
+                                direccion != null ? direccion.getTipoDireccion() : null,
+                                                             ^
+  symbol:   method getTipoDireccion()
+  location: variable direccion of type Direcciones
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:74: error: cannot find symbol
+                                direccion != null ? direccion.getCallePrincipal() : null,
+                                                             ^
+  symbol:   method getCallePrincipal()
+  location: variable direccion of type Direcciones
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:75: error: cannot find symbol
+                                direccion != null ? direccion.getPaisDomicilio() : null,
+                                                             ^
+  symbol:   method getPaisDomicilio()
+  location: variable direccion of type Direcciones
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:76: error: cannot find symbol
+                                direccion != null ? direccion.getInstancia() : null,
+                                                             ^
+  symbol:   method getInstancia()
+  location: variable direccion of type Direcciones
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:77: error: cannot find symbol
+                                direccion != null ? direccion.getTipoOperacion() : null
+                                                             ^
+  symbol:   method getTipoOperacion()
+  location: variable direccion of type Direcciones
+5 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/vxvaca/Documents/workspace/Servicios/ORQClientes0038/tnd-msa-sp-orqclientes0038/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  Note: MapStruct: Using accessor naming strategy: org.mapstruct.ap.spi.DefaultAccessorNamingStrategy
+  Note: MapStruct: Using builder provider: org.mapstruct.ap.spi.DefaultBuilderProvider
+  Note: MapStruct: Using enum naming strategy: org.mapstruct.ap.spi.DefaultEnumMappingStrategy
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0020AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0060AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.input.adapter.rest.mapper.ORQClientes0038SoapMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0101AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0038AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0055AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0104AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsTecnicos0076AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0072AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0099AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0154AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0108AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0029AdapterMapper.
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:73: error: cannot find symbol
+                                  direccion != null ? direccion.getTipoDireccion() : null,
+                                                               ^
+    symbol:   method getTipoDireccion()
+    location: variable direccion of type Direcciones
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:74: error: cannot find symbol
+                                  direccion != null ? direccion.getCallePrincipal() : null,
+                                                               ^
+    symbol:   method getCallePrincipal()
+    location: variable direccion of type Direcciones
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:75: error: cannot find symbol
+                                  direccion != null ? direccion.getPaisDomicilio() : null,
+                                                               ^
+    symbol:   method getPaisDomicilio()
+    location: variable direccion of type Direcciones
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:76: error: cannot find symbol
+                                  direccion != null ? direccion.getInstancia() : null,
+                                                               ^
+    symbol:   method getInstancia()
+    location: variable direccion of type Direcciones
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:77: error: cannot find symbol
+                                  direccion != null ? direccion.getTipoOperacion() : null
+                                                               ^
+    symbol:   method getTipoOperacion()
+    location: variable direccion of type Direcciones
+  5 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 16s
+4 actionable tasks: 4 executed
