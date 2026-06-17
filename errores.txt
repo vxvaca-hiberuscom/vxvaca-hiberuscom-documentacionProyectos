@@ -1,0 +1,437 @@
+
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038>gradlew.bat bootRun --args="--spring.profiles.active=local --server.port=8085"
+Starting a Gradle Daemon, 4 busy and 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+
+> Task :generateJavaFromWsdl
+Generando clases desde: ORQClientes0038.wsdl
+   Γ£ô Usando binding global: jaxb-bindings.xml
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Loading FrontEnd jaxws ...
+Loading DataBinding jaxb ...
+wsdl2java -d C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\build\generated\sources\wsdl -p com.pichincha.sp.generated -verbose -autoNameResolution -xjc-enableIntrospection -xjc-XautoNameResolution -exsh true -mark-generated -b C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\gradle\wrapper\jaxb-bindings.xml C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\resources\legacy\ORQClientes0038.wsdl
+wsdl2java - Apache CXF 4.1.1
+
+
+> Task :postProcessGeneratedWsdl
+Γ£à Post-procesamiento unificado completado
+
+> Task :compileJava
+Note: MapStruct: Using accessor naming strategy: org.mapstruct.ap.spi.DefaultAccessorNamingStrategy
+Note: MapStruct: Using builder provider: org.mapstruct.ap.spi.DefaultBuilderProvider
+Note: MapStruct: Using enum naming strategy: org.mapstruct.ap.spi.DefaultEnumMappingStrategy
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0072AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.input.adapter.rest.mapper.ORQClientes0038SoapMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0020AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0029AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0099AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0060AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0154AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0104AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0108AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0101AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0055AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0038AdapterMapper.
+Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsTecnicos0076AdapterMapper.
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\application\service\strategy\IniciarOrquestacionStrategy.java:501: error: cannot find symbol
+            new OrquestadorBodyOutDto(cif, new FlujoDto(OrquestadorSoapConstants.FLOW_STATE_FINALIZAR)),
+                                               ^
+  symbol:   class FlujoDto
+  location: class IniciarOrquestacionStrategy
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:128: error: cannot find symbol
+        if (direcciones == null || direcciones.getDireccion() == null || direcciones.getDireccion().isEmpty()) {
+                                              ^
+  symbol:   method getDireccion()
+  location: variable direcciones of type Direcciones
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:128: error: cannot find symbol
+        if (direcciones == null || direcciones.getDireccion() == null || direcciones.getDireccion().isEmpty()) {
+                                                                                    ^
+  symbol:   method getDireccion()
+  location: variable direcciones of type Direcciones
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:131: error: cannot find symbol
+        return direcciones.getDireccion().getFirst();
+                          ^
+  symbol:   method getDireccion()
+  location: variable direcciones of type Direcciones
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:150: error: cannot find symbol
+                source.getFechaDatosFinancieros(),
+                      ^
+  symbol:   method getFechaDatosFinancieros()
+  location: variable source of type ActividadEconomicaBOColeccion
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0055AdapterMapper.java:110: error: cannot find symbol
+        actividad.setFechaInicioTrabajoActual(source.fechaInicioTrabajoActual());
+                 ^
+  symbol:   method setFechaInicioTrabajoActual(String)
+  location: variable actividad of type ActividadEconomicaWsClientes0055Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0055AdapterMapper.java:111: error: cannot find symbol
+        actividad.setFechaInicioTrabajoAnterior(source.fechaInicioTrabajoAnterior());
+                 ^
+  symbol:   method setFechaInicioTrabajoAnterior(String)
+  location: variable actividad of type ActividadEconomicaWsClientes0055Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0055AdapterMapper.java:112: error: cannot find symbol
+        actividad.setFechaFinTrabajoAnterior(source.fechaFinTrabajoAnterior());
+                 ^
+  symbol:   method setFechaFinTrabajoAnterior(String)
+  location: variable actividad of type ActividadEconomicaWsClientes0055Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0055AdapterMapper.java:123: error: cannot find symbol
+        actividad.setFechaInicioNegocioIndependiente(source.fechaInicioNegocioIndependiente());
+                 ^
+  symbol:   method setFechaInicioNegocioIndependiente(String)
+  location: variable actividad of type ActividadEconomicaWsClientes0055Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0055AdapterMapper.java:172: error: incompatible types: List<DetalleSituacionLaboralNoTrabajaWsClientes0055Request> cannot be converted to DetalleSituacionLaboralNoTrabajaWsClientes0055Request
+        noTrabaja.setDetalleSituacionLaboralNoTrabaja(detalles.stream().map(this::toDetalleSituacionLaboralNoTrabaja).toList());
+                                                                                                                            ^
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:86: error: cannot find symbol
+        request.setNombreCompletoConyuge(conyugeAplica ? datos.nombreCompletoConyuge() : "");
+               ^
+  symbol:   method setNombreCompletoConyuge(conyugeApl[...] : "")
+  location: variable request of type DatosComplementariosWsClientes0060Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:87: error: cannot find symbol
+        request.setPartidoPolitico(datos.partidoPolitico());
+               ^
+  symbol:   method setPartidoPolitico(String)
+  location: variable request of type DatosComplementariosWsClientes0060Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:88: error: cannot find symbol
+        request.setEjecutivoEmpresaPublica(datos.ejecutivoEmpresaPublica());
+               ^
+  symbol:   method setEjecutivoEmpresaPublica(String)
+  location: variable request of type DatosComplementariosWsClientes0060Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:89: error: cannot find symbol
+        request.setTipoIdentificacionConyuge(conyugeAplica ? datos.tipoIdentificacionConyuge() : "");
+               ^
+  symbol:   method setTipoIdentificacionConyuge(conyugeApl[...] : "")
+  location: variable request of type DatosComplementariosWsClientes0060Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:90: error: cannot find symbol
+        request.setNumeroIdentificacionConyuge(conyugeAplica ? datos.numeroIdentificacionConyuge() : "");
+               ^
+  symbol:   method setNumeroIdentificacionConyuge(conyugeApl[...] : "")
+  location: variable request of type DatosComplementariosWsClientes0060Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:91: error: cannot find symbol
+        request.setPropositoRelacionComercial(datos.propositoRelacionComercial());
+               ^
+  symbol:   method setPropositoRelacionComercial(String)
+  location: variable request of type DatosComplementariosWsClientes0060Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0072AdapterMapper.java:109: error: cannot find symbol
+        request.setRelacion(coalesce(referencia.relacion()));
+               ^
+  symbol:   method setRelacion(String)
+  location: variable request of type TipoReferenciaWsClientes0072Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0072AdapterMapper.java:113: error: cannot find symbol
+        request.setDireccion(coalesce(referencia.direccion()));
+               ^
+  symbol:   method setDireccion(String)
+  location: variable request of type TipoReferenciaWsClientes0072Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:100: error: cannot find symbol
+        rel.setTipoIdentificacionRelacion(relacion != null ? relacion.tipoIdentificacionConyuge() : null);
+           ^
+  symbol:   method setTipoIdentificacionRelacion(relacion ![...] null)
+  location: variable rel of type RelacionWsClientes0101Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:101: error: cannot find symbol
+        rel.setNumeroIdentificacionRelacion(relacion != null ? relacion.identificacionConyuge() : null);
+           ^
+  symbol:   method setNumeroIdentificacionRelacion(relacion ![...] null)
+  location: variable rel of type RelacionWsClientes0101Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:102: error: cannot find symbol
+        rel.setNombreRelacion(config.nombreRelacion());
+           ^
+  symbol:   method setNombreRelacion(String)
+  location: variable rel of type RelacionWsClientes0101Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:103: error: cannot find symbol
+        rel.setFechaInicioRelacion(fechaInicioRelacion);
+           ^
+  symbol:   method setFechaInicioRelacion(String)
+  location: variable rel of type RelacionWsClientes0101Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:104: error: cannot find symbol
+        rel.setOperacion(config.operacion());
+           ^
+  symbol:   method setOperacion(String)
+  location: variable rel of type RelacionWsClientes0101Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:105: error: cannot find symbol
+        rel.setIdentificador(config.identificador());
+           ^
+  symbol:   method setIdentificador(String)
+  location: variable rel of type RelacionWsClientes0101Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0104AdapterMapper.java:102: error: cannot find symbol
+        d.setNombreTercero(datos.nombreTercero());
+         ^
+  symbol:   method setNombreTercero(String)
+  location: variable d of type DatosDemograficosWsClientes0104Request
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:38: error: cannot find symbol
+        request.setDispositivo("01010101010101010101010101010101");
+               ^
+  symbol:   method setDispositivo(String)
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:39: error: cannot find symbol
+        request.setEmpresa("0010");
+               ^
+  symbol:   method setEmpresa(String)
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:40: error: cannot find symbol
+        request.setCanal(headerIn != null && headerIn.canal() != null ? headerIn.canal() : "03");
+               ^
+  symbol:   method setCanal(headerIn ![...] "03")
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:41: error: cannot find symbol
+        request.setMedio(headerIn != null && headerIn.medio() != null ? headerIn.medio() : "030006");
+               ^
+  symbol:   method setMedio(headerIn ![...]0006")
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:42: error: cannot find symbol
+        request.setAplicacion(headerIn != null && headerIn.aplicacion() != null ? headerIn.aplicacion() : "00663");
+               ^
+  symbol:   method setAplicacion(headerIn ![...]0663")
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:43: error: cannot find symbol
+        request.setAgencia(headerIn != null ? headerIn.agencia() : null);
+               ^
+  symbol:   method setAgencia(headerIn ![...] null)
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:44: error: cannot find symbol
+        request.setTipoTransaccion("205001804");
+               ^
+  symbol:   method setTipoTransaccion(String)
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:45: error: cannot find symbol
+        request.setGeolocalizacion("123");
+               ^
+  symbol:   method setGeolocalizacion(String)
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:46: error: cannot find symbol
+        request.setUsuario("USINTERT");
+               ^
+  symbol:   method setUsuario(String)
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:47: error: cannot find symbol
+        request.setIdioma("es-EC");
+               ^
+  symbol:   method setIdioma(String)
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:48: error: cannot find symbol
+        request.setIp(headerIn != null ? headerIn.ip() : null);
+               ^
+  symbol:   method setIp(headerIn ![...] null)
+  location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+36 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/vxvaca/Documents/workspace/Servicios/ORQClientes0038/tnd-msa-sp-orqclientes0038/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0055AdapterMapper.java:172: error: incompatible types: List<DetalleSituacionLaboralNoTrabajaWsClientes0055Request> cannot be converted to DetalleSituacionLaboralNoTrabajaWsClientes0055Request
+          noTrabaja.setDetalleSituacionLaboralNoTrabaja(detalles.stream().map(this::toDetalleSituacionLaboralNoTrabaja).toList());
+                                                                                                                              ^
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\application\service\strategy\IniciarOrquestacionStrategy.java:501: error: cannot find symbol
+              new OrquestadorBodyOutDto(cif, new FlujoDto(OrquestadorSoapConstants.FLOW_STATE_FINALIZAR)),
+                                                 ^
+    symbol:   class FlujoDto
+    location: class IniciarOrquestacionStrategy
+  Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  Note: MapStruct: Using accessor naming strategy: org.mapstruct.ap.spi.DefaultAccessorNamingStrategy
+  Note: MapStruct: Using builder provider: org.mapstruct.ap.spi.DefaultBuilderProvider
+  Note: MapStruct: Using enum naming strategy: org.mapstruct.ap.spi.DefaultEnumMappingStrategy
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0072AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.input.adapter.rest.mapper.ORQClientes0038SoapMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0020AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0029AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0099AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0060AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0154AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0104AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0108AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0101AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0055AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsClientes0038AdapterMapper.
+  Note:  MapStruct: processing: com.pichincha.sp.infrastructure.output.adapter.mapper.WsTecnicos0076AdapterMapper.
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:128: error: cannot find symbol
+          if (direcciones == null || direcciones.getDireccion() == null || direcciones.getDireccion().isEmpty()) {
+                                                ^
+    symbol:   method getDireccion()
+    location: variable direcciones of type Direcciones
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:128: error: cannot find symbol
+          if (direcciones == null || direcciones.getDireccion() == null || direcciones.getDireccion().isEmpty()) {
+                                                                                      ^
+    symbol:   method getDireccion()
+    location: variable direcciones of type Direcciones
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:131: error: cannot find symbol
+          return direcciones.getDireccion().getFirst();
+                            ^
+    symbol:   method getDireccion()
+    location: variable direcciones of type Direcciones
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\input\adapter\rest\mapper\ORQClientes0038SoapMapper.java:150: error: cannot find symbol
+                  source.getFechaDatosFinancieros(),
+                        ^
+    symbol:   method getFechaDatosFinancieros()
+    location: variable source of type ActividadEconomicaBOColeccion
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0055AdapterMapper.java:110: error: cannot find symbol
+          actividad.setFechaInicioTrabajoActual(source.fechaInicioTrabajoActual());
+                   ^
+    symbol:   method setFechaInicioTrabajoActual(String)
+    location: variable actividad of type ActividadEconomicaWsClientes0055Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0055AdapterMapper.java:111: error: cannot find symbol
+          actividad.setFechaInicioTrabajoAnterior(source.fechaInicioTrabajoAnterior());
+                   ^
+    symbol:   method setFechaInicioTrabajoAnterior(String)
+    location: variable actividad of type ActividadEconomicaWsClientes0055Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0055AdapterMapper.java:112: error: cannot find symbol
+          actividad.setFechaFinTrabajoAnterior(source.fechaFinTrabajoAnterior());
+                   ^
+    symbol:   method setFechaFinTrabajoAnterior(String)
+    location: variable actividad of type ActividadEconomicaWsClientes0055Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0055AdapterMapper.java:123: error: cannot find symbol
+          actividad.setFechaInicioNegocioIndependiente(source.fechaInicioNegocioIndependiente());
+                   ^
+    symbol:   method setFechaInicioNegocioIndependiente(String)
+    location: variable actividad of type ActividadEconomicaWsClientes0055Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:86: error: cannot find symbol
+          request.setNombreCompletoConyuge(conyugeAplica ? datos.nombreCompletoConyuge() : "");
+                 ^
+    symbol:   method setNombreCompletoConyuge(conyugeApl[...] : "")
+    location: variable request of type DatosComplementariosWsClientes0060Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:87: error: cannot find symbol
+          request.setPartidoPolitico(datos.partidoPolitico());
+                 ^
+    symbol:   method setPartidoPolitico(String)
+    location: variable request of type DatosComplementariosWsClientes0060Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:88: error: cannot find symbol
+          request.setEjecutivoEmpresaPublica(datos.ejecutivoEmpresaPublica());
+                 ^
+    symbol:   method setEjecutivoEmpresaPublica(String)
+    location: variable request of type DatosComplementariosWsClientes0060Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:89: error: cannot find symbol
+          request.setTipoIdentificacionConyuge(conyugeAplica ? datos.tipoIdentificacionConyuge() : "");
+                 ^
+    symbol:   method setTipoIdentificacionConyuge(conyugeApl[...] : "")
+    location: variable request of type DatosComplementariosWsClientes0060Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:90: error: cannot find symbol
+          request.setNumeroIdentificacionConyuge(conyugeAplica ? datos.numeroIdentificacionConyuge() : "");
+                 ^
+    symbol:   method setNumeroIdentificacionConyuge(conyugeApl[...] : "")
+    location: variable request of type DatosComplementariosWsClientes0060Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0060AdapterMapper.java:91: error: cannot find symbol
+          request.setPropositoRelacionComercial(datos.propositoRelacionComercial());
+                 ^
+    symbol:   method setPropositoRelacionComercial(String)
+    location: variable request of type DatosComplementariosWsClientes0060Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0072AdapterMapper.java:109: error: cannot find symbol
+          request.setRelacion(coalesce(referencia.relacion()));
+                 ^
+    symbol:   method setRelacion(String)
+    location: variable request of type TipoReferenciaWsClientes0072Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0072AdapterMapper.java:113: error: cannot find symbol
+          request.setDireccion(coalesce(referencia.direccion()));
+                 ^
+    symbol:   method setDireccion(String)
+    location: variable request of type TipoReferenciaWsClientes0072Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:100: error: cannot find symbol
+          rel.setTipoIdentificacionRelacion(relacion != null ? relacion.tipoIdentificacionConyuge() : null);
+             ^
+    symbol:   method setTipoIdentificacionRelacion(relacion ![...] null)
+    location: variable rel of type RelacionWsClientes0101Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:101: error: cannot find symbol
+          rel.setNumeroIdentificacionRelacion(relacion != null ? relacion.identificacionConyuge() : null);
+             ^
+    symbol:   method setNumeroIdentificacionRelacion(relacion ![...] null)
+    location: variable rel of type RelacionWsClientes0101Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:102: error: cannot find symbol
+          rel.setNombreRelacion(config.nombreRelacion());
+             ^
+    symbol:   method setNombreRelacion(String)
+    location: variable rel of type RelacionWsClientes0101Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:103: error: cannot find symbol
+          rel.setFechaInicioRelacion(fechaInicioRelacion);
+             ^
+    symbol:   method setFechaInicioRelacion(String)
+    location: variable rel of type RelacionWsClientes0101Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:104: error: cannot find symbol
+          rel.setOperacion(config.operacion());
+             ^
+    symbol:   method setOperacion(String)
+    location: variable rel of type RelacionWsClientes0101Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0101AdapterMapper.java:105: error: cannot find symbol
+          rel.setIdentificador(config.identificador());
+             ^
+    symbol:   method setIdentificador(String)
+    location: variable rel of type RelacionWsClientes0101Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsClientes0104AdapterMapper.java:102: error: cannot find symbol
+          d.setNombreTercero(datos.nombreTercero());
+           ^
+    symbol:   method setNombreTercero(String)
+    location: variable d of type DatosDemograficosWsClientes0104Request
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:38: error: cannot find symbol
+          request.setDispositivo("01010101010101010101010101010101");
+                 ^
+    symbol:   method setDispositivo(String)
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:39: error: cannot find symbol
+          request.setEmpresa("0010");
+                 ^
+    symbol:   method setEmpresa(String)
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:40: error: cannot find symbol
+          request.setCanal(headerIn != null && headerIn.canal() != null ? headerIn.canal() : "03");
+                 ^
+    symbol:   method setCanal(headerIn ![...] "03")
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:41: error: cannot find symbol
+          request.setMedio(headerIn != null && headerIn.medio() != null ? headerIn.medio() : "030006");
+                 ^
+    symbol:   method setMedio(headerIn ![...]0006")
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:42: error: cannot find symbol
+          request.setAplicacion(headerIn != null && headerIn.aplicacion() != null ? headerIn.aplicacion() : "00663");
+                 ^
+    symbol:   method setAplicacion(headerIn ![...]0663")
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:43: error: cannot find symbol
+          request.setAgencia(headerIn != null ? headerIn.agencia() : null);
+                 ^
+    symbol:   method setAgencia(headerIn ![...] null)
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:44: error: cannot find symbol
+          request.setTipoTransaccion("205001804");
+                 ^
+    symbol:   method setTipoTransaccion(String)
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:45: error: cannot find symbol
+          request.setGeolocalizacion("123");
+                 ^
+    symbol:   method setGeolocalizacion(String)
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:46: error: cannot find symbol
+          request.setUsuario("USINTERT");
+                 ^
+    symbol:   method setUsuario(String)
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:47: error: cannot find symbol
+          request.setIdioma("es-EC");
+                 ^
+    symbol:   method setIdioma(String)
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038\src\main\java\com\pichincha\sp\infrastructure\output\adapter\mapper\WsTecnicos0076AdapterMapper.java:48: error: cannot find symbol
+          request.setIp(headerIn != null ? headerIn.ip() : null);
+                 ^
+    symbol:   method setIp(headerIn ![...] null)
+    location: variable request of type WsTecnicos0076CrearLogModificaciones21HeaderInRequest
+  36 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 36s
+4 actionable tasks: 4 executed
+
+C:\Users\vxvaca\Documents\workspace\Servicios\ORQClientes0038\tnd-msa-sp-orqclientes0038>
