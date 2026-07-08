@@ -1,0 +1,655 @@
+***********************************************
+WSClientes0087
+
+http://10.70.128.74:6911/WSClientes0087/soap/WSClientes0087Request
+ENTRADA
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://bpichincha.com/servicios">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:ListarContactos02>
+         <!--Optional:-->
+         <headerIn>
+            <dispositivo>as78da98sd698as7d98as7d98</dispositivo>
+            <empresa>0010</empresa>
+            <canal>10</canal>
+            <medio>100001</medio>
+            <aplicacion>00738</aplicacion>
+            <agencia>666</agencia>
+            <tipoTransaccion>202013701</tipoTransaccion>
+            <geolocalizacion>000</geolocalizacion>
+            <usuario>USINTERT</usuario>
+            <unicidad/>
+            <guid>2f6364994bd64749b3bafdad5458681e</guid>
+            <fechaHora>202301110040120931</fechaHora>
+            <filler/>
+            <idioma>es-EC</idioma>
+            <sesion>SD70A9S7D9AS7D09A7SD098</sesion>
+            <ip>10.0.0.0</ip>
+            <idCliente/>
+            <tipoIdCliente/>
+            <!--Optional:-->
+            <documento>
+               <!--Optional:-->
+               <fechaContable/>
+               <!--Optional:-->
+               <numeroDocumento/>
+               <!--Optional:-->
+               <journals>
+                  <!--Zero or more repetitions:-->
+                  <journal>
+                     <!--Optional:-->
+                     <valor/>
+                  </journal>
+               </journals>
+            </documento>
+         </headerIn>
+         <!--Optional:-->
+         <bodyIn>
+            <ordenante>
+               <cif>0000000005854863</cif>
+            </ordenante>
+         </bodyIn>
+      </ser:ListarContactos02>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+SALIDA
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <ns2:ListarContactos02Response xmlns:ns2="http://bpichincha.com/servicios">
+         <headerOut>
+            <dispositivo>as78da98sd698as7d98as7d98</dispositivo>
+            <empresa>0010</empresa>
+            <canal>10</canal>
+            <medio>100001</medio>
+            <aplicacion>00738</aplicacion>
+            <agencia>666</agencia>
+            <tipoTransaccion>202013701</tipoTransaccion>
+            <geolocalizacion>000</geolocalizacion>
+            <usuario>USINTERT</usuario>
+            <unicidad/>
+            <guid>2f6364994bd64749b3bafdad5458681e</guid>
+            <fechaHora>202301110040120931</fechaHora>
+            <filler/>
+            <idioma>es-EC</idioma>
+            <sesion>SD70A9S7D9AS7D09A7SD098</sesion>
+            <ip>10.0.0.0</ip>
+            <idCliente/>
+            <tipoIdCliente/>
+            <documento>
+               <fechaContable/>
+               <numeroDocumento/>
+               <journals>
+                  <journal>
+                     <valor/>
+                  </journal>
+               </journals>
+            </documento>
+         </headerOut>
+         <bodyOut>
+            <contactos>
+               <contacto>
+                  <identificacion>1720359296</identificacion>
+                  <tipoIdentificacion>0001</tipoIdentificacion>
+                  <nombre>SANCHEZ SANCHEZ NATALIA MARISELL</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>1045931957</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0030</codigo>
+                     <nombre>BANCO DEL PACIFICO</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>170018819</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>1723621460</identificacion>
+                  <tipoIdentificacion>0001</tipoIdentificacion>
+                  <nombre>UNIFORMES</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>20059093178</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0036</codigo>
+                     <nombre>BANCO PRODUBANCO</nombre>
+                  </entidadFinanciera>
+                  <email>mauseindustriavnt@gmail.com</email>
+                  <estado>0</estado>
+                  <codigo>113848511</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>TOCTE COFRE LUIS FABIAN</nombre>
+                  <nombreCliente>LIMPIEZA Y FUMIGACION</nombreCliente>
+                  <numeroProducto>2201873361</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>ayalaelizabeth90@gmail.com</email>
+                  <estado>0</estado>
+                  <codigo>248110585</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>FUNDACION PARA ATENCION MEDICA POPULAR LENIN MOSQUERA</nombre>
+                  <nombreCliente>LENIN MOSQUERA</nombreCliente>
+                  <numeroProducto>2100027745</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>farmacia@hlmosquera.com.ec</email>
+                  <estado>0</estado>
+                  <codigo>255837580</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>DICAFOOD SAS</nombre>
+                  <nombreCliente>CHEFHOUSE</nombreCliente>
+                  <numeroProducto>2100333989</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>local2chefhouse@gmail.com</email>
+                  <estado>0</estado>
+                  <codigo>272033386</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>ARMAS CARPIO MERCY ELIZABETH</nombre>
+                  <nombreCliente>PRESI MERCY</nombreCliente>
+                  <numeroProducto>2200029622</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>188599067</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0602284838</identificacion>
+                  <tipoIdentificacion>0001</tipoIdentificacion>
+                  <nombre>SR JURADO</nombre>
+                  <nombreCliente>SR JURADO</nombreCliente>
+                  <numeroProducto>22003330</numeroProducto>
+                  <tipoProducto>corriente</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0017</codigo>
+                     <nombre>BANCO DE GUAYAQUIL S.A</nombre>
+                  </entidadFinanciera>
+                  <email>imagenimport@hotmail.com</email>
+                  <estado>0</estado>
+                  <codigo>223401867</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>ABUELITA GUTIERREZ</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2200915144</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>143294206</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>ASITUMBAY CHILENO FREDDY EFRAIN</nombre>
+                  <nombreCliente>BOMBA DE AGUA</nombreCliente>
+                  <numeroProducto>2200945241</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>217458931</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>ANIMACION</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2201327550</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>143331955</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>VEGA  LIGIA AURORA</nombre>
+                  <nombreCliente>TESORERA COMITE ROOSEVELT</nombreCliente>
+                  <numeroProducto>2205842192</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>233781504</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>CIMA FOTOGRAFIA</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2206289370</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>kta.nenjer@gmail.com</email>
+                  <estado>0</estado>
+                  <codigo>135195672</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>CAMPERO</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2202745219</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>jebrame@outlook.es</email>
+                  <estado>0</estado>
+                  <codigo>118853217</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>MORALES MENDEZ KAREN ESTEFANIA</nombre>
+                  <nombreCliente>ASEGURADORA</nombreCliente>
+                  <numeroProducto>2203186304</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>228766519</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>PASTELERIA LIAM</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2203826700</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>pastelerialiam3@gmail.com</email>
+                  <estado>0</estado>
+                  <codigo>154925984</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>TERAN  ESCOBAR JORGE EDUARDO</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2205067905</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>114911888</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>QUICALIQUIN PUNINA MIRYAN ALEXANDRA</nombre>
+                  <nombreCliente>EL CONDORITO</nombreCliente>
+                  <numeroProducto>2205158551</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>229349623</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>ARMAS  CARPIO MERCY ELIZABETH</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2205648163</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>116737948</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>AVEIGA CASTRO CARLOS ALFARO</nombre>
+                  <nombreCliente>CEVICHEKENEDY</nombreCliente>
+                  <numeroProducto>2206071771</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>cc9833447@gmail.com</email>
+                  <estado>0</estado>
+                  <codigo>251700996</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>REGALO PROFE</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2206180917</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>marymalan4@gmail.com</email>
+                  <estado>0</estado>
+                  <codigo>118981063</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>SAIGUA PUETATE ANGEL PAUL</nombre>
+                  <nombreCliente>RAMIRO</nombreCliente>
+                  <numeroProducto>2209726824</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>230764122</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>ODONTOLOGO</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2211496850</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>1800smiledental@gmail.com</email>
+                  <estado>0</estado>
+                  <codigo>157258259</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>SANDRITA</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2206460975</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>161053731</codigo>
+               </contacto>
+               <contacto>
+                  <tipoIdentificacion>0001</tipoIdentificacion>
+                  <nombre>VITERI LARA KEVIN MAURICIO</nombre>
+                  <nombreCliente>GRADO ISAAC</nombreCliente>
+                  <numeroProducto>2206980338</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>202754646</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>QUEVEDO SOTO YENNY MARCELA</nombre>
+                  <nombreCliente>JENNY</nombreCliente>
+                  <numeroProducto>2207260432</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>182076091</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>1715703250</identificacion>
+                  <tipoIdentificacion>0001</tipoIdentificacion>
+                  <nombre>VARGAS ALAVA CRISTIAN EDUARDO</nombre>
+                  <nombreCliente>TESORERO VARGAS</nombreCliente>
+                  <numeroProducto>2207269561</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>null</email>
+                  <estado>0</estado>
+                  <codigo>166043442</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>CHICAIZA LINCANGO BELEN VICTORIA</nombre>
+                  <nombreCliente>MAESTRO PUERTA</nombreCliente>
+                  <numeroProducto>2207380669</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>ricardomecin@hotmail.com</email>
+                  <estado>0</estado>
+                  <codigo>265800545</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>VILLARRUEL VIZUETE CAMILA SALOME</nombre>
+                  <nombreCliente>CAMISETAS ISAAC</nombreCliente>
+                  <numeroProducto>2208253279</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>264795470</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>MAMITA</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>2210009283</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>152264762</codigo>
+               </contacto>
+               <contacto>
+                  <tipoIdentificacion>0001</tipoIdentificacion>
+                  <nombre>DIAZ ENCARNACION ANTHONY ARIEL</nombre>
+                  <nombreCliente>PANTALON</nombreCliente>
+                  <numeroProducto>2210098661</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>202785873</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0603962309</identificacion>
+                  <tipoIdentificacion>0001</tipoIdentificacion>
+                  <nombre>GUAMBRITO LOCO</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>8596022000</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0042</codigo>
+                     <nombre>BANCO GENERAL RUMINAHUI S.A.</nombre>
+                  </entidadFinanciera>
+                  <email>erickvinzpell@gmail.com</email>
+                  <estado>0</estado>
+                  <codigo>152907324</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>CHAVEZ PUERTO FRANYERID KARINA</nombre>
+                  <nombreCliente>LEMURINA</nombreCliente>
+                  <numeroProducto>2214459807</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>artelemurina@gmail.com</email>
+                  <estado>0</estado>
+                  <codigo>258341462</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>GUAMAN CHICAYZA MIRIAN ALEXANDRA</nombre>
+                  <nombreCliente>APOYO DYLAN</nombreCliente>
+                  <numeroProducto>2214722204</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>mirian.guaman@hotmail.com</email>
+                  <estado>0</estado>
+                  <codigo>255462784</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>PIZZA</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>3287260200</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>143377145</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>CEDENTYKIDS</nombre>
+                  <nombreCliente></nombreCliente>
+                  <numeroProducto>3462060900</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>Info@cedentykids.com</email>
+                  <estado>0</estado>
+                  <codigo>167886179</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>VILLAMAR ORTIZ MARCELA DE LOURDES</nombre>
+                  <nombreCliente>DIRECTORA ROOSEVELT</nombreCliente>
+                  <numeroProducto>5522853200</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <email>marcela_villamar@hotmail.com</email>
+                  <estado>0</estado>
+                  <codigo>238248953</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0</identificacion>
+                  <tipoIdentificacion>0002</tipoIdentificacion>
+                  <nombre>SOLORZANO AVILES ANA LUCIA</nombre>
+                  <nombreCliente>PRESIDENTA</nombreCliente>
+                  <numeroProducto>5846781200</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0010</codigo>
+                     <nombre>BANCO PICHINCHA</nombre>
+                  </entidadFinanciera>
+                  <estado>0</estado>
+                  <codigo>232321205</codigo>
+               </contacto>
+               <contacto>
+                  <identificacion>0603547472</identificacion>
+                  <tipoIdentificacion>0001</tipoIdentificacion>
+                  <nombre>AMOR</nombre>
+                  <nombreCliente>AMOR</nombreCliente>
+                  <numeroProducto>8126994</numeroProducto>
+                  <tipoProducto>ahorro</tipoProducto>
+                  <entidadFinanciera>
+                     <codigo>0032</codigo>
+                     <nombre>BANCO INTERNACIONAL</nombre>
+                  </entidadFinanciera>
+                  <email>hurtado.d@hotmail.es</email>
+                  <estado>0</estado>
+                  <codigo>209888257</codigo>
+               </contacto>
+            </contactos>
+         </bodyOut>
+         <error>
+            <codigo>0</codigo>
+            <mensaje>PRECBPOC14-OK</mensaje>
+            <mensajeNegocio/>
+            <tipo>INFO</tipo>
+            <recurso>WSClientes0087/ListarContactos02</recurso>
+            <componente>ListarContactos02</componente>
+            <backend>00633</backend>
+         </error>
+      </ns2:ListarContactos02Response>
+   </soapenv:Body>
+</soapenv:Envelope>
+******************************************************************
