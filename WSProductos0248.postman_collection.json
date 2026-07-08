@@ -1,0 +1,882 @@
+{
+  "info": {
+    "_postman_id": "d7b20b08-4bfc-4464-b09b-131bf53105f9",
+    "name": "WSProductos0248",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51547842"
+  },
+  "item": [
+    {
+      "name": "ConsultarIntervinientesClientes02 Local",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml; charset=utf-8"
+          },
+          {
+            "key": "SOAPAction",
+            "value": "http://bpichincha.com/servicios/ActualizarMontoTransferenciaCuenta31"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ser=\"http://bpichincha.com/servicios\">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <ser:ConsultarIntervinientesClientes02>\n         <headerIn>\n            <dispositivo>01010101010101010101010101010101</dispositivo>\n            <empresa>0010</empresa>\n            <canal>03</canal>\n            <medio>030006</medio>\n            <aplicacion>00663</aplicacion>\n            <agencia>0197</agencia>\n            <tipoTransaccion>302006301</tipoTransaccion>\n            <geolocalizacion>00000</geolocalizacion>\n            <usuario>USINTERT</usuario>\n            <unicidad>UZhDOa2GXtkAK2/QovFagnnS+nQSGAF/SKyTIIv1axc=</unicidad>\n            <guid>3F2504E04F8911D39A0C0305E82C3302</guid>\n            <fechaHora>202412101002000042</fechaHora>\n            <filler></filler>\n            <idioma>es-EC</idioma>\n            <sesion>cd04048e-f48c-4336-a910-c7fcebba2a7b</sesion>\n            <ip>10.192.168.45</ip>\n            <idCliente>1718975301</idCliente>\n            <tipoIdCliente>0001</tipoIdCliente>\n            <bancs>\n                <teller>00070560</teller>\n                <terminal>1</terminal>\n                <institucion>0010</institucion>\n                <agencia>1</agencia>\n                <estacion>1</estacion>\n                <aplicacion></aplicacion>\n                <canal></canal>\n            </bancs>\n         </headerIn>\n         <bodyIn>\n            <cuenta>3055635604</cuenta>\n            <condicion>\n               <numeroCondicion>1</numeroCondicion>\n               <funcion>E</funcion>\n               <usuarioCif>C</usuarioCif>\n               <numeroTransaccion>0</numeroTransaccion>\n            </condicion>\n         </bodyIn>\n      </ser:ConsultarIntervinientesClientes02>\n   </soapenv:Body>\n</soapenv:Envelope>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/IntegrationBus/soap/WSProductos0248",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "IntegrationBus",
+            "soap",
+            "WSProductos0248"
+          ]
+        },
+        "description": "Método ActualizarMontoTransferenciaCuenta31 que permite Actualizar el Monto de Transferencia de la cuenta de un cliente."
+      },
+      "response": []
+    },
+    {
+      "name": "ConsultarIntervinientesClientes02 Local Copy",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml; charset=utf-8"
+          },
+          {
+            "key": "SOAPAction",
+            "value": "http://bpichincha.com/servicios/ActualizarMontoTransferenciaCuenta31"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ser=\"http://bpichincha.com/servicios\">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <ser:ConsultarIntervinientesClientes02>\n         <headerIn>\n            <dispositivo>01010101010101010101010101010101</dispositivo>\n            <empresa>0010</empresa>\n            <canal>03</canal>\n            <medio>030006</medio>\n            <aplicacion>00663</aplicacion>\n            <agencia>0197</agencia>\n            <tipoTransaccion>302006301</tipoTransaccion>\n            <geolocalizacion>00000</geolocalizacion>\n            <usuario>USINTERT</usuario>\n            <unicidad>UZhDOa2GXtkAK2/QovFagnnS+nQSGAF/SKyTIIv1axc=</unicidad>\n            <guid>3F2504E04F8911D39A0C0305E82C3302</guid>\n            <fechaHora>202412101002000042</fechaHora>\n            <filler></filler>\n            <idioma>es-EC</idioma>\n            <sesion>cd04048e-f48c-4336-a910-c7fcebba2a7b</sesion>\n            <ip>10.192.168.45</ip>\n            <idCliente>1718975301</idCliente>\n            <tipoIdCliente>0001</tipoIdCliente>\n            <bancs>\n                <teller>00070560</teller>\n                <terminal>1</terminal>\n                <institucion>0010</institucion>\n                <agencia>1</agencia>\n                <estacion>1</estacion>\n                <aplicacion></aplicacion>\n                <canal></canal>\n            </bancs>\n         </headerIn>\n         <bodyIn>\n            <cuenta>3055635604</cuenta>\n            <condicion>\n               <numeroCondicion></numeroCondicion>\n               <funcion>E</funcion>\n               <usuarioCif>C</usuarioCif>\n               <numeroTransaccion>0</numeroTransaccion>\n            </condicion>\n         </bodyIn>\n      </ser:ConsultarIntervinientesClientes02>\n   </soapenv:Body>\n</soapenv:Envelope>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/IntegrationBus/soap/WSProductos0248",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "IntegrationBus",
+            "soap",
+            "WSProductos0248"
+          ]
+        },
+        "description": "Método ActualizarMontoTransferenciaCuenta31 que permite Actualizar el Monto de Transferencia de la cuenta de un cliente."
+      },
+      "response": []
+    },
+    {
+      "name": "ConsultarIntervinientesClientes02 Dev",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml; charset=utf-8"
+          },
+          {
+            "key": "SOAPAction",
+            "value": "http://bpichincha.com/servicios/ActualizarMontoTransferenciaCuenta31"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ser=\"http://bpichincha.com/servicios\">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <ser:ConsultarIntervinientesClientes02>\n         <headerIn>\n            <dispositivo>01010101010101010101010101010101</dispositivo>\n            <empresa>0010</empresa>\n            <canal>03</canal>\n            <medio>030006</medio>\n            <aplicacion>00663</aplicacion>\n            <agencia>0197</agencia>\n            <tipoTransaccion>302006301</tipoTransaccion>\n            <geolocalizacion>00000</geolocalizacion>\n            <usuario>USINTERT</usuario>\n            <unicidad>UZhDOa2GXtkAK2/QovFagnnS+nQSGAF/SKyTIIv1axc=</unicidad>\n            <guid>3F2504E04F8911D39A0C0305E82C3302</guid>\n            <fechaHora>202412101002000042</fechaHora>\n            <filler></filler>\n            <idioma>es-EC</idioma>\n            <sesion>cd04048e-f48c-4336-a910-c7fcebba2a7b</sesion>\n            <ip>10.192.168.45</ip>\n            <idCliente>1718975301</idCliente>\n            <tipoIdCliente>0001</tipoIdCliente>\n            <bancs>\n                <teller>00070560</teller>\n                <terminal>1</terminal>\n                <institucion>0010</institucion>\n                <agencia>1</agencia>\n                <estacion>1</estacion>\n                <aplicacion></aplicacion>\n                <canal></canal>\n            </bancs>\n         </headerIn>\n         <bodyIn>\n            <cuenta>2212814380</cuenta>\n            <condicion>\n               <numeroCondicion>1</numeroCondicion>\n               <funcion>E</funcion>\n               <usuarioCif>C</usuarioCif>\n               <numeroTransaccion>0</numeroTransaccion>\n            </condicion>\n         </bodyIn>\n      </ser:ConsultarIntervinientesClientes02>\n   </soapenv:Body>\n</soapenv:Envelope>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://10.60.128.85:6001/IntegrationBus/soap/WSProductos0248",
+          "protocol": "http",
+          "host": [
+            "10",
+            "60",
+            "128",
+            "85"
+          ],
+          "port": "6001",
+          "path": [
+            "IntegrationBus",
+            "soap",
+            "WSProductos0248"
+          ]
+        },
+        "description": "Método ActualizarMontoTransferenciaCuenta31 que permite Actualizar el Monto de Transferencia de la cuenta de un cliente."
+      },
+      "response": []
+    },
+    {
+      "name": "ConsultarIntervinientesClientes02 Legacy",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml; charset=utf-8"
+          },
+          {
+            "key": "SOAPAction",
+            "value": "http://bpichincha.com/servicios/ActualizarMontoTransferenciaCuenta31"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ser=\"http://bpichincha.com/servicios\">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <ser:ConsultarIntervinientesClientes02>\n         <headerIn>\n            <dispositivo>01010101010101010101010101010101</dispositivo>\n            <empresa>0010</empresa>\n            <canal>03</canal>\n            <medio>030006</medio>\n            <aplicacion>00663</aplicacion>\n            <agencia>0197</agencia>\n            <tipoTransaccion>302006301</tipoTransaccion>\n            <geolocalizacion>00000</geolocalizacion>\n            <usuario>USINTERT</usuario>\n            <unicidad>UZhDOa2GXtkAK2/QovFagnnS+nQSGAF/SKyTIIv1axc=</unicidad>\n            <guid>3F2504E04F8911D39A0C0305E82C3302</guid>\n            <fechaHora>202412101002000042</fechaHora>\n            <filler></filler>\n            <idioma>es-EC</idioma>\n            <sesion>cd04048e-f48c-4336-a910-c7fcebba2a7b</sesion>\n            <ip>10.192.168.45</ip>\n            <idCliente>1718975301</idCliente>\n            <tipoIdCliente>0001</tipoIdCliente>\n            <bancs>\n                <teller>00070560</teller>\n                <terminal>1</terminal>\n                <institucion>0010</institucion>\n                <agencia>1</agencia>\n                <estacion>1</estacion>\n                <aplicacion></aplicacion>\n                <canal></canal>\n            </bancs>\n         </headerIn>\n         <bodyIn>\n            <cuenta>3055635604</cuenta>\n            <condicion>\n               <numeroCondicion>1</numeroCondicion>\n               <funcion>E</funcion>\n               <usuarioCif>C</usuarioCif>\n               <numeroTransaccion>0</numeroTransaccion>\n            </condicion>\n         </bodyIn>\n      </ser:ConsultarIntervinientesClientes02>\n   </soapenv:Body>\n</soapenv:Envelope>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://10.60.128.85:6001/IntegrationBus/soap/WSProductos0248",
+          "protocol": "http",
+          "host": [
+            "10",
+            "60",
+            "128",
+            "85"
+          ],
+          "port": "6001",
+          "path": [
+            "IntegrationBus",
+            "soap",
+            "WSProductos0248"
+          ]
+        },
+        "description": "Método ActualizarMontoTransferenciaCuenta31 que permite Actualizar el Monto de Transferencia de la cuenta de un cliente."
+      },
+      "response": [
+        {
+          "name": "ConsultarIntervinientesClientes02 Legacy",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "text/xml; charset=utf-8"
+              },
+              {
+                "key": "SOAPAction",
+                "value": "http://bpichincha.com/servicios/ActualizarMontoTransferenciaCuenta31"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ser=\"http://bpichincha.com/servicios\">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <ser:ConsultarIntervinientesClientes02>\n         <headerIn>\n            <dispositivo>01010101010101010101010101010101</dispositivo>\n            <empresa>0010</empresa>\n            <canal>03</canal>\n            <medio>030006</medio>\n            <aplicacion>00663</aplicacion>\n            <agencia>0197</agencia>\n            <tipoTransaccion>302006301</tipoTransaccion>\n            <geolocalizacion>00000</geolocalizacion>\n            <usuario>USINTERT</usuario>\n            <unicidad>UZhDOa2GXtkAK2/QovFagnnS+nQSGAF/SKyTIIv1axc=</unicidad>\n            <guid>3F2504E04F8911D39A0C0305E82C3302</guid>\n            <fechaHora>202412101002000042</fechaHora>\n            <filler></filler>\n            <idioma>es-EC</idioma>\n            <sesion>cd04048e-f48c-4336-a910-c7fcebba2a7b</sesion>\n            <ip>10.192.168.45</ip>\n            <idCliente>1718975301</idCliente>\n            <tipoIdCliente>0001</tipoIdCliente>\n            <bancs>\n                <teller>00070560</teller>\n                <terminal>1</terminal>\n                <institucion>0010</institucion>\n                <agencia>1</agencia>\n                <estacion>1</estacion>\n                <aplicacion></aplicacion>\n                <canal></canal>\n            </bancs>\n         </headerIn>\n         <bodyIn>\n            <cuenta>3055635604</cuenta>\n            <condicion>\n               <numeroCondicion>1</numeroCondicion>\n               <funcion>E</funcion>\n               <usuarioCif>C</usuarioCif>\n               <numeroTransaccion>0</numeroTransaccion>\n            </condicion>\n         </bodyIn>\n      </ser:ConsultarIntervinientesClientes02>\n   </soapenv:Body>\n</soapenv:Envelope>",
+              "options": {
+                "raw": {
+                  "language": "xml"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://10.60.128.85:6001/IntegrationBus/soap/WSProductos0248",
+              "protocol": "http",
+              "host": [
+                "10",
+                "60",
+                "128",
+                "85"
+              ],
+              "port": "6001",
+              "path": [
+                "IntegrationBus",
+                "soap",
+                "WSProductos0248"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Server",
+              "value": "Apache-Coyote/1.1"
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/xml;charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "3154"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 02 Jul 2026 17:43:06 GMT"
+            }
+          ],
+          "cookie": [],
+          "body": "<NS1:Envelope xmlns:NS1=\"http://schemas.xmlsoap.org/soap/envelope/\">\n    <NS1:Body>\n        <NS2:ConsultarIntervinientesClientes02Response xmlns:NS2=\"http://bpichincha.com/servicios\">\n            <headerOut>\n                <dispositivo>01010101010101010101010101010101</dispositivo>\n                <empresa>0010</empresa>\n                <canal>03</canal>\n                <medio>030006</medio>\n                <aplicacion>00663</aplicacion>\n                <agencia>0197</agencia>\n                <tipoTransaccion>302006301</tipoTransaccion>\n                <geolocalizacion>00000</geolocalizacion>\n                <usuario>USINTERT</usuario>\n                <unicidad>UZhDOa2GXtkAK2/QovFagnnS+nQSGAF/SKyTIIv1axc=</unicidad>\n                <guid>3F2504E04F8911D39A0C0305E82C3302</guid>\n                <fechaHora>202412101002000042</fechaHora>\n                <filler></filler>\n                <idioma>es-EC</idioma>\n                <sesion>cd04048e-f48c-4336-a910-c7fcebba2a7b</sesion>\n                <ip>10.192.168.45</ip>\n                <idCliente>1718975301</idCliente>\n                <tipoIdCliente>0001</tipoIdCliente>\n                <bancs>\n                    <teller>00070560</teller>\n                    <terminal>1</terminal>\n                    <institucion>0010</institucion>\n                    <agencia>1</agencia>\n                    <estacion>1</estacion>\n                    <aplicacion></aplicacion>\n                    <canal></canal>\n                </bancs>\n                <documento>\n                    <fechaContable></fechaContable>\n                    <numeroDocumento></numeroDocumento>\n                    <journals>\n                        <journal>\n                            <valor></valor>\n                        </journal>\n                    </journals>\n                </documento>\n            </headerOut>\n            <bodyOut>\n                <condicionesIntervinientes>\n                    <intervinientes>\n                        <numeroConfiguracion>1</numeroConfiguracion>\n                        <agrupaciones>\n                            <grupo1>\n                                <cif>1013999</cif>\n                                <cif>27218</cif>\n                                <cif>1913851</cif>\n                                <cif>636287</cif>\n                                <cif>1361333</cif>\n                                <cif>69411</cif>\n                                <cif>2335111</cif>\n                                <cif>5953156</cif>\n                            </grupo1>\n                            <grupo2/>\n                            <grupo3/>\n                            <grupo4/>\n                            <grupo5/>\n                        </agrupaciones>\n                        <interviniente>\n                            <cif>1013999</cif>\n                            <nombre>TERESA VASQUEZ</nombre>\n                            <identificacion>1711612372</identificacion>\n                            <tipoIdentificacion>0001</tipoIdentificacion>\n                        </interviniente>\n                        <interviniente>\n                            <cif>27218</cif>\n                            <nombre>ANGELA ALARCON</nombre>\n                            <identificacion>0101499770</identificacion>\n                            <tipoIdentificacion>0001</tipoIdentificacion>\n                        </interviniente>\n                        <interviniente>\n                            <cif>1913851</cif>\n                            <nombre>MONSCH SAGUES</nombre>\n                            <identificacion>0602314841</identificacion>\n                            <tipoIdentificacion>0001</tipoIdentificacion>\n                        </interviniente>\n                        <interviniente>\n                            <cif>636287</cif>\n                            <nombre>PAEZ BENEDICTIS</nombre>\n                            <identificacion>1500254444</identificacion>\n                            <tipoIdentificacion>0001</tipoIdentificacion>\n                        </interviniente>\n                        <interviniente>\n                            <cif>1361333</cif>\n                            <nombre>AUQUILLA CUDCO</nombre>\n                            <identificacion>1711224533</identificacion>\n                            <tipoIdentificacion>0001</tipoIdentificacion>\n                        </interviniente>\n                        <interviniente>\n                            <cif>69411</cif>\n                            <nombre>LEIBER CHEVERRIA</nombre>\n                            <identificacion>0201179348</identificacion>\n                            <tipoIdentificacion>0001</tipoIdentificacion>\n                        </interviniente>\n                        <interviniente>\n                            <cif>2335111</cif>\n                            <nombre>TEPEDINO PROVENCHER</nombre>\n                            <identificacion>1710541283</identificacion>\n                            <tipoIdentificacion>0001</tipoIdentificacion>\n                        </interviniente>\n                        <interviniente>\n                            <cif>5953156</cif>\n                            <nombre></nombre>\n                            <identificacion>0503564718</identificacion>\n                            <tipoIdentificacion>0001</tipoIdentificacion>\n                        </interviniente>\n                    </intervinientes>\n                </condicionesIntervinientes>\n            </bodyOut>\n            <error>\n                <codigo>0</codigo>\n                <mensaje>TCSBRKR1_BP-OK</mensaje>\n                <mensajeNegocio></mensajeNegocio>\n                <tipo>INFO</tipo>\n                <recurso>WSProductos0248/ConsultarIntervinientesClientes02</recurso>\n                <componente>WSProductos0248</componente>\n                <backend>00638</backend>\n            </error>\n        </NS2:ConsultarIntervinientesClientes02Response>\n    </NS1:Body>\n</NS1:Envelope>"
+        }
+      ]
+    },
+    {
+      "name": "OperacionesFirmas51 Local",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml; charset=utf-8"
+          },
+          {
+            "key": "SOAPAction",
+            "value": "http://bpichincha.com/servicios/ActualizarMontoTransferenciaCuenta31"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ser=\"http://bpichincha.com/servicios\">\n    <soapenv:Header/>\n    <soapenv:Body>\n        <ser:OperacionesFirmas51>\n            <headerIn>\n                <dispositivo>MLj53KS7MhiSQACCkFspUvJQeS4dLC8AvN8EjSRh/t8</dispositivo>\n                <empresa>0010</empresa>\n                <canal>02</canal>\n                <medio>020002</medio>\n                <aplicacion>00647</aplicacion>\n                <agencia>197</agencia>\n                <tipoTransaccion>302000651</tipoTransaccion>\n                <geolocalizacion>1234</geolocalizacion>\n                <usuario>USINTERT</usuario>\n                <unicidad>d4617a426ea94d2ba39b53914e344849</unicidad>\n                <guid>d4617a426ea94d2ba39b53914e344849</guid>\n                <fechaHora>202605291138260008</fechaHora>\n                <filler/>\n                <idioma>es-EC</idioma>\n                <sesion>383b793c-3bad-48a2-af66-1702547ea671</sesion>\n                <ip>0.0.0.0</ip>\n                <idCliente>1003256292</idCliente>\n                <tipoIdCliente>0001</tipoIdCliente>\n                <bancs>\n                    <teller>00070560</teller>\n                    <terminal>1</terminal>\n                    <institucion>0010</institucion>\n                    <agencia>1</agencia>\n                    <estacion>1</estacion>\n                    <aplicacion/>\n                    <canal/>\n                </bancs>\n            </headerIn>\n            <bodyIn>\n                <cuenta>3336907304</cuenta>\n                <funcion>C</funcion>                \n            </bodyIn>\n        </ser:OperacionesFirmas51>\n    </soapenv:Body>\n</soapenv:Envelope>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/IntegrationBus/soap/WSProductos0248",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "IntegrationBus",
+            "soap",
+            "WSProductos0248"
+          ]
+        },
+        "description": "Método ActualizarMontoTransferenciaCuenta31 que permite Actualizar el Monto de Transferencia de la cuenta de un cliente."
+      },
+      "response": []
+    },
+    {
+      "name": "OperacionesFirmas51 Dev",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml; charset=utf-8"
+          },
+          {
+            "key": "SOAPAction",
+            "value": "http://bpichincha.com/servicios/ActualizarMontoTransferenciaCuenta31"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ser=\"http://bpichincha.com/servicios\">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <ser:OperacionesFirmas51>\n         <headerIn>\n            <ser:transactionId>?</ser:transactionId>\n            <ser:timestamp>?</ser:timestamp>\n            <ser:channel>?</ser:channel>\n            <!--Optional:-->\n            <ser:userId>?</ser:userId>\n            <!--Optional:-->\n            <ser:sessionId>?</ser:sessionId>\n         </headerIn>\n         <bodyIn>?</bodyIn>\n      </ser:OperacionesFirmas51>\n   </soapenv:Body>\n</soapenv:Envelope>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://10.60.128.85:6000/IntegrationBus/soap/WSProductos0248",
+          "protocol": "http",
+          "host": [
+            "10",
+            "60",
+            "128",
+            "85"
+          ],
+          "port": "6000",
+          "path": [
+            "IntegrationBus",
+            "soap",
+            "WSProductos0248"
+          ]
+        },
+        "description": "Método ActualizarMontoTransferenciaCuenta31 que permite Actualizar el Monto de Transferencia de la cuenta de un cliente."
+      },
+      "response": []
+    },
+    {
+      "name": "OperacionesFirmas51 Legado",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml; charset=utf-8"
+          },
+          {
+            "key": "SOAPAction",
+            "value": "http://bpichincha.com/servicios/ActualizarMontoTransferenciaCuenta31"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<soapenv:Envelope\nxmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"\nxmlns:ser=\"http://bpichincha.com/servicios\">\n    <soapenv:Header/>\n    <soapenv:Body>\n        <ser:OperacionesFirmas51>\n            <headerIn>\n                <dispositivo>MLj53KS7MhiSQACCkFspUvJQeS4dLC8AvN8EjSRh/t8</dispositivo>\n                <empresa>0010</empresa>\n                <canal>02</canal>\n                <medio>020002</medio>\n                <aplicacion>00647</aplicacion>\n                <agencia>197</agencia>\n                <tipoTransaccion>302000651</tipoTransaccion>\n                <geolocalizacion>1234</geolocalizacion>\n                <usuario>USINTERT</usuario>\n                <unicidad>d4617a426ea94d2ba39b53914e344849</unicidad>\n                <guid>d4617a426ea94d2ba39b53914e344849</guid>\n                <fechaHora>202605291138260008</fechaHora>\n                <filler/>\n                <idioma>es-EC</idioma>\n                <sesion>383b793c-3bad-48a2-af66-1702547ea671</sesion>\n                <ip>0.0.0.0</ip>\n                <idCliente>1003256292</idCliente>\n                <tipoIdCliente>0001</tipoIdCliente>\n                <bancs>\n                    <teller>00070560</teller>\n                    <terminal>1</terminal>\n                    <institucion>0010</institucion>\n                    <agencia>1</agencia>\n                    <estacion>1</estacion>\n                    <aplicacion/>\n                    <canal/>\n                </bancs>\n            </headerIn>\n            <bodyIn>\n                <cuenta>1701077057</cuenta>\n                <funcion>C</funcion>\n                <observacionFirma></observacionFirma>\n                <numeroCondicion>1</numeroCondicion>\n                <condiciones>\n                    <condicion>\n                        <status>1</status>\n                        <montoMaximo>99.99</montoMaximo>\n                        <montoMinimo>0.00</montoMinimo>\n                        <minimoFirmantes>1</minimoFirmantes>\n                        <selloRequerido>N</selloRequerido>\n                        <frecuencia1>5</frecuencia1>\n                        <montoMaximoFrecuencia>999.99</montoMaximoFrecuencia>\n                        <porcentajeFirma>100.00</porcentajeFirma>\n                        <frecuencia2>5</frecuencia2>\n                        <firmantes>\n                            <firmante>\n                                <cif>684306</cif>\n                            </firmante>\n                        </firmantes>\n                    </condicion>\n                </condiciones>\n            </bodyIn>\n        </ser:OperacionesFirmas51>\n    </soapenv:Body>\n</soapenv:Envelope>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://10.60.128.85:6001/IntegrationBus/soap/WSProductos0248",
+          "protocol": "http",
+          "host": [
+            "10",
+            "60",
+            "128",
+            "85"
+          ],
+          "port": "6001",
+          "path": [
+            "IntegrationBus",
+            "soap",
+            "WSProductos0248"
+          ]
+        },
+        "description": "Método ActualizarMontoTransferenciaCuenta31 que permite Actualizar el Monto de Transferencia de la cuenta de un cliente."
+      },
+      "response": []
+    },
+    {
+      "name": "Tx064019",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "disabled": false
+          },
+          {
+            "key": "Cookie",
+            "value": "b414c483358bdc0f8b787a529f26df80=001462897807c62f435771e641186c1e",
+            "disabled": false
+          },
+          {
+            "key": "x-agency",
+            "value": "2188",
+            "disabled": false
+          },
+          {
+            "key": "x-app",
+            "value": "00738",
+            "disabled": false
+          },
+          {
+            "key": "x-channel",
+            "value": "10",
+            "disabled": false
+          },
+          {
+            "key": "x-device",
+            "value": "9939aadd00ee32",
+            "disabled": false
+          },
+          {
+            "key": "x-device-ip",
+            "value": "200.10.89.34",
+            "disabled": false
+          },
+          {
+            "key": "x-geolocation",
+            "value": "(-0.120670,-78.483371)",
+            "disabled": false
+          },
+          {
+            "key": "x-guid",
+            "value": "550e8400-e29b-41d4-a716-446655440000",
+            "disabled": false
+          },
+          {
+            "key": "x-medium",
+            "value": "100002",
+            "disabled": false
+          },
+          {
+            "key": "x-session",
+            "value": "a9fd8deb-2aad-4d88-a7e3-d153c9e44b66",
+            "disabled": false
+          },
+          {
+            "key": "Cookie",
+            "value": "dtCookiewh95kubn=v_4_srv_2_sn_5E1C3C3FB68A254150B3230CDAA52468_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; f9f2f2fabc73f0fdc4a1fc14a680556c=001462897807c62f435771e641186c1e",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"transactionId\":\"064019\",\"header\":{\"bancsUser\":{\"teller\":\"00070560\",\"terminal\":\"1\",\"institution\":\"003\",\"branch\":\"1\",\"workstation\":\"1\",\"channel\":\"\"}},\"body\":{\"accntNumber1\":\"3336907304\",\"function\":\"A\",\"tlCuFlag\":\"C\",\"txnCode\":\"\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://tpr-msa-ad-bnc-products-details-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064019",
+          "protocol": "https",
+          "host": [
+            "tpr-msa-ad-bnc-products-details-enp",
+            "apps",
+            "ocptest",
+            "uiotest",
+            "bpichinchatest",
+            "test"
+          ],
+          "path": [
+            "bancs",
+            "trx",
+            "064019"
+          ]
+        },
+        "description": "Request creado desde curl proporcionado por el usuario para la transacción 067225."
+      },
+      "response": []
+    },
+    {
+      "name": "Tx064023",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "disabled": false
+          },
+          {
+            "key": "Cookie",
+            "value": "b414c483358bdc0f8b787a529f26df80=001462897807c62f435771e641186c1e",
+            "disabled": false
+          },
+          {
+            "key": "x-agency",
+            "value": "2188",
+            "disabled": false
+          },
+          {
+            "key": "x-app",
+            "value": "00738",
+            "disabled": false
+          },
+          {
+            "key": "x-channel",
+            "value": "10",
+            "disabled": false
+          },
+          {
+            "key": "x-device",
+            "value": "9939aadd00ee32",
+            "disabled": false
+          },
+          {
+            "key": "x-device-ip",
+            "value": "200.10.89.34",
+            "disabled": false
+          },
+          {
+            "key": "x-geolocation",
+            "value": "(-0.120670,-78.483371)",
+            "disabled": false
+          },
+          {
+            "key": "x-guid",
+            "value": "550e8400-e29b-41d4-a716-446655440000",
+            "disabled": false
+          },
+          {
+            "key": "x-medium",
+            "value": "100002",
+            "disabled": false
+          },
+          {
+            "key": "x-session",
+            "value": "a9fd8deb-2aad-4d88-a7e3-d153c9e44b66",
+            "disabled": false
+          },
+          {
+            "key": "Cookie",
+            "value": "dtCookiewh95kubn=v_4_srv_2_sn_5E1C3C3FB68A254150B3230CDAA52468_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; f9f2f2fabc73f0fdc4a1fc14a680556c=001462897807c62f435771e641186c1e",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"transactionId\":\"064023\",\"header\":{\"bancsUser\":{\"terminal\":\"1\",\"institution\":\"003\",\"branch\":1,\"workstation\":1,\"teller\":\"00070560\",\"channel\":\"02\",\"application\":\"02\"}},\"body\":{\"accntNumber1\":3055635604,\"function\":\"E\",\"tlCuFlag\":\"C\",\"txnCode\":\"0\",\"settingNo\":\"01\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://tpr-msa-ad-bnc-products-details-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064023",
+          "protocol": "https",
+          "host": [
+            "tpr-msa-ad-bnc-products-details-enp",
+            "apps",
+            "ocptest",
+            "uiotest",
+            "bpichinchatest",
+            "test"
+          ],
+          "path": [
+            "bancs",
+            "trx",
+            "064023"
+          ]
+        },
+        "description": "Request creado desde curl proporcionado por el usuario para la transacción 067225."
+      },
+      "response": [
+        {
+          "name": "Tx064023",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              },
+              {
+                "key": "Cookie",
+                "value": "b414c483358bdc0f8b787a529f26df80=001462897807c62f435771e641186c1e",
+                "disabled": false
+              },
+              {
+                "key": "x-agency",
+                "value": "2188",
+                "disabled": false
+              },
+              {
+                "key": "x-app",
+                "value": "00738",
+                "disabled": false
+              },
+              {
+                "key": "x-channel",
+                "value": "10",
+                "disabled": false
+              },
+              {
+                "key": "x-device",
+                "value": "9939aadd00ee32",
+                "disabled": false
+              },
+              {
+                "key": "x-device-ip",
+                "value": "200.10.89.34",
+                "disabled": false
+              },
+              {
+                "key": "x-geolocation",
+                "value": "(-0.120670,-78.483371)",
+                "disabled": false
+              },
+              {
+                "key": "x-guid",
+                "value": "550e8400-e29b-41d4-a716-446655440000",
+                "disabled": false
+              },
+              {
+                "key": "x-medium",
+                "value": "100002",
+                "disabled": false
+              },
+              {
+                "key": "x-session",
+                "value": "a9fd8deb-2aad-4d88-a7e3-d153c9e44b66",
+                "disabled": false
+              },
+              {
+                "key": "Cookie",
+                "value": "dtCookiewh95kubn=v_4_srv_2_sn_5E1C3C3FB68A254150B3230CDAA52468_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; f9f2f2fabc73f0fdc4a1fc14a680556c=001462897807c62f435771e641186c1e",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"transactionId\":\"064023\",\"header\":{\"bancsUser\":{\"terminal\":\"1\",\"institution\":\"003\",\"branch\":1,\"workstation\":1,\"teller\":\"00070560\",\"channel\":\"02\",\"application\":\"02\"}},\"body\":{\"accntNumber1\":3055635604,\"function\":\"E\",\"tlCuFlag\":\"C\",\"txnCode\":\"0\",\"settingNo\":\"01\"}}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://tpr-msa-ad-bnc-products-details-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064023",
+              "protocol": "https",
+              "host": [
+                "tpr-msa-ad-bnc-products-details-enp",
+                "apps",
+                "ocptest",
+                "uiotest",
+                "bpichinchatest",
+                "test"
+              ],
+              "path": [
+                "bancs",
+                "trx",
+                "064023"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "content-type",
+              "value": "application/json"
+            },
+            {
+              "key": "content-length",
+              "value": "3981"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"transactionId\": \"064024\",\n    \"success\": true,\n    \"body\": {\n        \"accntNumber1\": 3055635604,\n        \"function\": \"E\",\n        \"tlCuFlag\": \"C\",\n        \"txnCode\": 0,\n        \"settingNo\": \"01\",\n        \"tx064024DetailsRs\": [\n            {\n                \"status\": 1,\n                \"custNo1\": 1013999,\n                \"custNo2\": 27218,\n                \"custNo3\": 1913851,\n                \"custNo4\": 636287,\n                \"custNo5\": 1361333,\n                \"custNo6\": 69411,\n                \"custNo7\": 2335111,\n                \"custNo8\": 5953156,\n                \"custNo9\": null,\n                \"custNo10\": null,\n                \"name1\": \"TERESA VASQUEZ\",\n                \"name2\": \"ANGELA ALARCON\",\n                \"name3\": \"MONSCH SAGUES\",\n                \"name4\": \"PAEZ BENEDICTIS\",\n                \"name5\": \"AUQUILLA CUDCO\",\n                \"name6\": \"LEIBER CHEVERRIA\",\n                \"name7\": \"TEPEDINO PROVENCHER\",\n                \"name8\": null,\n                \"name9\": null,\n                \"name10\": null,\n                \"idType1\": \"0001\",\n                \"idType2\": \"0001\",\n                \"idType3\": \"0001\",\n                \"idType4\": \"0001\",\n                \"idType5\": \"0001\",\n                \"idType6\": \"0001\",\n                \"idType7\": \"0001\",\n                \"idType8\": \"0001\",\n                \"idType9\": null,\n                \"idType10\": null,\n                \"idNum1\": \"1711612372\",\n                \"idNum2\": \"0101499770\",\n                \"idNum3\": \"0602314841\",\n                \"idNum4\": \"1500254444\",\n                \"idNum5\": \"1711224533\",\n                \"idNum6\": \"0201179348\",\n                \"idNum7\": \"1710541283\",\n                \"idNum8\": \"0503564718\",\n                \"idNum9\": null,\n                \"idNum10\": null\n            },\n            {\n                \"status\": null,\n                \"custNo1\": null,\n                \"custNo2\": null,\n                \"custNo3\": null,\n                \"custNo4\": null,\n                \"custNo5\": null,\n                \"custNo6\": null,\n                \"custNo7\": null,\n                \"custNo8\": null,\n                \"custNo9\": null,\n                \"custNo10\": null,\n                \"name1\": null,\n                \"name2\": null,\n                \"name3\": null,\n                \"name4\": null,\n                \"name5\": null,\n                \"name6\": null,\n                \"name7\": null,\n                \"name8\": null,\n                \"name9\": null,\n                \"name10\": null,\n                \"idType1\": null,\n                \"idType2\": null,\n                \"idType3\": null,\n                \"idType4\": null,\n                \"idType5\": null,\n                \"idType6\": null,\n                \"idType7\": null,\n                \"idType8\": null,\n                \"idType9\": null,\n                \"idType10\": null,\n                \"idNum1\": null,\n                \"idNum2\": null,\n                \"idNum3\": null,\n                \"idNum4\": null,\n                \"idNum5\": null,\n                \"idNum6\": null,\n                \"idNum7\": null,\n                \"idNum8\": null,\n                \"idNum9\": null,\n                \"idNum10\": null\n            },\n            {\n                \"status\": null,\n                \"custNo1\": null,\n                \"custNo2\": null,\n                \"custNo3\": null,\n                \"custNo4\": null,\n                \"custNo5\": null,\n                \"custNo6\": null,\n                \"custNo7\": null,\n                \"custNo8\": null,\n                \"custNo9\": null,\n                \"custNo10\": null,\n                \"name1\": null,\n                \"name2\": null,\n                \"name3\": null,\n                \"name4\": null,\n                \"name5\": null,\n                \"name6\": null,\n                \"name7\": null,\n                \"name8\": null,\n                \"name9\": null,\n                \"name10\": null,\n                \"idType1\": null,\n                \"idType2\": null,\n                \"idType3\": null,\n                \"idType4\": null,\n                \"idType5\": null,\n                \"idType6\": null,\n                \"idType7\": null,\n                \"idType8\": null,\n                \"idType9\": null,\n                \"idType10\": null,\n                \"idNum1\": null,\n                \"idNum2\": null,\n                \"idNum3\": null,\n                \"idNum4\": null,\n                \"idNum5\": null,\n                \"idNum6\": null,\n                \"idNum7\": null,\n                \"idNum8\": null,\n                \"idNum9\": null,\n                \"idNum10\": null\n            },\n            {\n                \"status\": null,\n                \"custNo1\": null,\n                \"custNo2\": null,\n                \"custNo3\": null,\n                \"custNo4\": null,\n                \"custNo5\": null,\n                \"custNo6\": null,\n                \"custNo7\": null,\n                \"custNo8\": null,\n                \"custNo9\": null,\n                \"custNo10\": null,\n                \"name1\": null,\n                \"name2\": null,\n                \"name3\": null,\n                \"name4\": null,\n                \"name5\": null,\n                \"name6\": null,\n                \"name7\": null,\n                \"name8\": null,\n                \"name9\": null,\n                \"name10\": null,\n                \"idType1\": null,\n                \"idType2\": null,\n                \"idType3\": null,\n                \"idType4\": null,\n                \"idType5\": null,\n                \"idType6\": null,\n                \"idType7\": null,\n                \"idType8\": null,\n                \"idType9\": null,\n                \"idType10\": null,\n                \"idNum1\": null,\n                \"idNum2\": null,\n                \"idNum3\": null,\n                \"idNum4\": null,\n                \"idNum5\": null,\n                \"idNum6\": null,\n                \"idNum7\": null,\n                \"idNum8\": null,\n                \"idNum9\": null,\n                \"idNum10\": null\n            },\n            {\n                \"status\": null,\n                \"custNo1\": null,\n                \"custNo2\": null,\n                \"custNo3\": null,\n                \"custNo4\": null,\n                \"custNo5\": null,\n                \"custNo6\": null,\n                \"custNo7\": null,\n                \"custNo8\": null,\n                \"custNo9\": null,\n                \"custNo10\": null,\n                \"name1\": null,\n                \"name2\": null,\n                \"name3\": null,\n                \"name4\": null,\n                \"name5\": null,\n                \"name6\": null,\n                \"name7\": null,\n                \"name8\": null,\n                \"name9\": null,\n                \"name10\": null,\n                \"idType1\": null,\n                \"idType2\": null,\n                \"idType3\": null,\n                \"idType4\": null,\n                \"idType5\": null,\n                \"idType6\": null,\n                \"idType7\": null,\n                \"idType8\": null,\n                \"idType9\": null,\n                \"idType10\": null,\n                \"idNum1\": null,\n                \"idNum2\": null,\n                \"idNum3\": null,\n                \"idNum4\": null,\n                \"idNum5\": null,\n                \"idNum6\": null,\n                \"idNum7\": null,\n                \"idNum8\": null,\n                \"idNum9\": null,\n                \"idNum10\": null\n            }\n        ],\n        \"cif11\": 1013999,\n        \"cif12\": 27218,\n        \"cif13\": 1913851,\n        \"cif14\": 636287,\n        \"cif15\": 1361333,\n        \"cif16\": 69411,\n        \"cif17\": 2335111,\n        \"cif18\": 5953156,\n        \"cif19\": null,\n        \"cif110\": null,\n        \"cif21\": null,\n        \"cif22\": null,\n        \"cif23\": null,\n        \"cif24\": null,\n        \"cif25\": null,\n        \"cif26\": null,\n        \"cif27\": null,\n        \"cif28\": null,\n        \"cif29\": null,\n        \"cif210\": null,\n        \"cif31\": null,\n        \"cif32\": null,\n        \"cif33\": null,\n        \"cif34\": null,\n        \"cif35\": null,\n        \"cif36\": null,\n        \"cif37\": null,\n        \"cif38\": null,\n        \"cif39\": null,\n        \"cif310\": null,\n        \"cif41\": null,\n        \"cif42\": null,\n        \"cif43\": null,\n        \"cif44\": null,\n        \"cif45\": null,\n        \"cif46\": null,\n        \"cif47\": null,\n        \"cif48\": null,\n        \"cif49\": null,\n        \"cif410\": null,\n        \"cif51\": null,\n        \"cif52\": null,\n        \"cif53\": null,\n        \"cif54\": null,\n        \"cif55\": null,\n        \"cif56\": null,\n        \"cif57\": null,\n        \"cif58\": null,\n        \"cif59\": null,\n        \"cif510\": null\n    },\n    \"error\": null\n}"
+        }
+      ]
+    },
+    {
+      "name": "Tx064028",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "disabled": false
+          },
+          {
+            "key": "x-guid",
+            "value": "868277447969706202601091314060461",
+            "disabled": false
+          },
+          {
+            "key": "x-channel",
+            "value": "01",
+            "disabled": false
+          },
+          {
+            "key": "x-medium",
+            "value": "010002",
+            "disabled": false
+          },
+          {
+            "key": "x-session",
+            "value": "904084630074040202601091314060461",
+            "disabled": false
+          },
+          {
+            "key": "x-agency",
+            "value": "0008",
+            "disabled": false
+          },
+          {
+            "key": "Cookie",
+            "value": "04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff; 531e8c2784754267dc043bbb1b8d7936=94a2ed9a5adbe09207d138e0d72a4c35",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"transactionId\":\"064028\",\n  \"header\":{\n    \"bancsUser\":{\n      \"terminal\":\"1\",\n      \"institution\":\"003\",\n      \"branch\":12,\n      \"workstation\":1,\n      \"teller\":\"00008002\",\n      \"channel\":\"02\",\n      \"application\":\"02\"\n    }\n  },\n  \"body\":{\n    \"accntNumber1\":2100345790,\n    \"function\":\"A\",\n    \"tlCuFlag\":\"C\",\n    \"txnCode\":0,\n    \"settingNo\":1,\n    \"rowNo\":1,\n    \"minNoSign\":1,\n    \"sealReq\":\"N\",\n    \"cIFNo1\":\"22158\",\n    \"cIFNo2\":0,\n    \"cIFNo3\":0,\n    \"cIFNo4\":0,\n    \"cIFNo5\":0,\n    \"cIFNo6\":0,\n    \"cIFNo7\":0,\n    \"cIFNo8\":0,\n    \"cIFNo9\":0,\n    \"cIFNo10\":0\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://tpr-msa-ad-bnc-products-relationship-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064028",
+          "protocol": "https",
+          "host": [
+            "tpr-msa-ad-bnc-products-relationship-enp",
+            "apps",
+            "ocptest",
+            "uiotest",
+            "bpichinchatest",
+            "test"
+          ],
+          "path": [
+            "bancs",
+            "trx",
+            "064028"
+          ]
+        },
+        "description": "Generated from cURL: curl --location 'https://tpr-msa-ad-bnc-products-relationship-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064028' --header 'Content-Type: application/json' --header 'x-guid: 868277447969706202601091314060461' --header 'x-channel: 01' --header 'x-medium: 010002' --header 'x-session: 904084630074040202601091314060461' --header 'x-agency: 0008' --header 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff; 531e8c2784754267dc043bbb1b8d7936=94a2ed9a5adbe09207d138e0d72a4c35' --data '{\n  \"transactionId\":\"064028\",\n  \"header\":{\n    \"bancsUser\":{\n      \"terminal\":\"1\",\n      \"institution\":\"003\",\n      \"branch\":12,\n      \"workstation\":1,\n      \"teller\":\"00008002\",\n      \"channel\":\"02\",\n      \"application\":\"02\"\n    }\n  },\n  \"body\":{\n    \"accntNumber1\":2100345790,\n    \"function\":\"A\",\n    \"tlCuFlag\":\"C\",\n    \"txnCode\":0,\n    \"settingNo\":1,\n    \"rowNo\":1,\n    \"minNoSign\":1,\n    \"sealReq\":\"N\",\n    \"cIFNo1\":\"22158\",\n    \"cIFNo2\":0,\n    \"cIFNo3\":0,\n    \"cIFNo4\":0,\n    \"cIFNo5\":0,\n    \"cIFNo6\":0,\n    \"cIFNo7\":0,\n    \"cIFNo8\":0,\n    \"cIFNo9\":0,\n    \"cIFNo10\":0\n  }\n}'"
+      },
+      "response": []
+    },
+    {
+      "name": "Tx064021",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "disabled": false
+          },
+          {
+            "key": "x-guid",
+            "value": "868277447969706202601091314060461",
+            "disabled": false
+          },
+          {
+            "key": "x-channel",
+            "value": "01",
+            "disabled": false
+          },
+          {
+            "key": "x-medium",
+            "value": "010002",
+            "disabled": false
+          },
+          {
+            "key": "x-session",
+            "value": "904084630074040202601091314060461",
+            "disabled": false
+          },
+          {
+            "key": "x-agency",
+            "value": "0008",
+            "disabled": false
+          },
+          {
+            "key": "Cookie",
+            "value": "04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff; 531e8c2784754267dc043bbb1b8d7936=94a2ed9a5adbe09207d138e0d72a4c35",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"transactionId\": \"064021\",\n    \"header\": {\n        \"bancsUser\": {\n            \"terminal\": \"1\",\n            \"institution\": \"003\",\n            \"branch\": 12,\n            \"workstation\": 1,\n            \"teller\": \"00008002\",\n            \"channel\": \"02\",\n            \"application\": \"02\"\n        }\n    },\n    \"body\": {\n        \"accntNumber1\": 2100345790,\n        \"function\": \"A\",\n        \"tlCuFlag\": \"C\",\n        \"txnCode\": 0,\n        \"settingNo\": 1,\n        \"signObvs\": \"Consulta parametros de firma\",\n        \"collection1\": [\n            {\n                \"status\": 1,\n                \"minAmt\": \"1.000\",\n                \"maxAmt\": \"1.000\",\n                \"minNoSign\": 1,\n                \"sealReq\": \"N\",\n                \"freq1\": 5,\n                \"ceil1\": \"1.000\",\n                \"perc\": \"100.00\",\n                \"freq2\": 5\n            }\n        ]\n    }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://tpr-msa-ad-bnc-products-relationship-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064021",
+          "protocol": "https",
+          "host": [
+            "tpr-msa-ad-bnc-products-relationship-enp",
+            "apps",
+            "ocptest",
+            "uiotest",
+            "bpichinchatest",
+            "test"
+          ],
+          "path": [
+            "bancs",
+            "trx",
+            "064021"
+          ]
+        },
+        "description": "Generated from cURL: curl --location 'https://tpr-msa-ad-bnc-products-relationship-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064021' --header 'Content-Type: application/json' --header 'x-guid: 868277447969706202601091314060461' --header 'x-channel: 01' --header 'x-medium: 010002' --header 'x-session: 904084630074040202601091314060461' --header 'x-agency: 0008' --header 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff; 531e8c2784754267dc043bbb1b8d7936=94a2ed9a5adbe09207d138e0d72a4c35' --data '{\n    \"transactionId\": \"064021\",\n    \"header\": {\n        \"bancsUser\": {\n            \"terminal\": \"1\",\n            \"institution\": \"003\",\n            \"branch\": 12,\n            \"workstation\": 1,\n            \"teller\": \"00008002\",\n            \"channel\": \"02\",\n            \"application\": \"02\"\n        }\n    },\n    \"body\": {\n        \"accntNumber1\": 2100345790,\n        \"function\": \"A\",\n        \"tlCuFlag\": \"C\",\n        \"txnCode\": 0,\n        \"settingNo\": 1,\n        \"signObvs\": \"Consulta parametros de firma\",\n        \"collection1\": [\n            {\n                \"status\": 1,\n                \"minAmt\": \"1.000\",\n                \"maxAmt\": \"1.000\",\n                \"minNoSign\": 1,\n                \"sealReq\": \"N\",\n                \"freq1\": 5,\n                \"ceil1\": \"1.000\",\n                \"perc\": \"100.00\",\n                \"freq2\": 5\n            }\n        ]\n    }\n}'"
+      },
+      "response": []
+    },
+    {
+      "name": "Tx064020",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "disabled": false
+          },
+          {
+            "key": "x-guid",
+            "value": "868277447969706202601091314060461",
+            "disabled": false
+          },
+          {
+            "key": "x-channel",
+            "value": "01",
+            "disabled": false
+          },
+          {
+            "key": "x-medium",
+            "value": "010002",
+            "disabled": false
+          },
+          {
+            "key": "x-session",
+            "value": "904084630074040202601091314060461",
+            "disabled": false
+          },
+          {
+            "key": "x-agency",
+            "value": "0008",
+            "disabled": false
+          },
+          {
+            "key": "Cookie",
+            "value": "04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff",
+            "disabled": false
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"transactionId\":\"064020\",\"header\":{\"bancsUser\":{\"terminal\":\"1\",\"institution\":\"003\",\"branch\":12,\"workstation\":1,\"teller\":\"00070560\",\"channel\":\"y\",\"application\":\"0\"}},\"body\":{\"accntNumber1\":2100345688,\"function\":\"E\",\"tlCuFlag\":\"C\",\"txnCode\":\"0\",\"settingNo\":\"01\"}}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://tpr-msa-ad-bnc-products-details-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064020",
+          "protocol": "https",
+          "host": [
+            "tpr-msa-ad-bnc-products-details-enp",
+            "apps",
+            "ocptest",
+            "uiotest",
+            "bpichinchatest",
+            "test"
+          ],
+          "path": [
+            "bancs",
+            "trx",
+            "064020"
+          ]
+        },
+        "description": "Generated from cURL: curl -L 'https://tpr-msa-ad-bnc-products-details-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064020' -H 'Content-Type: application/json' -H 'x-guid: 868277447969706202601091314060461' -H 'x-channel: 01' -H 'x-medium: 010002' -H 'x-session: 904084630074040202601091314060461' -H 'x-agency: 0008' -H 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff' -d '{\"transactionId\":\"064020\",\"header\":{\"bancsUser\":{\"terminal\":\"1\",\"institution\":\"003\",\"branch\":12,\"workstation\":1,\"teller\":\"00070560\",\"channel\":\"y\",\"application\":\"0\"}},\"body\":{\"accntNumber1\":2100345688,\"function\":\"E\",\"tlCuFlag\":\"C\",\"txnCode\":\"0\",\"settingNo\":\"01\"}}'"
+      },
+      "response": []
+    }
+  ]
+}
