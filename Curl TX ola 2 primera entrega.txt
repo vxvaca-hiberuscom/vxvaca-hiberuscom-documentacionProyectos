@@ -1,0 +1,124 @@
+CURL TX
+
+TX067050 Opc 21
+curl --location 'https://tnd-msa-ad-bnc-customers-profile-enp.apps.ocpdev.uiotest.bpichinchatest.test/bancs/trx/067050-21' --header 'Accept: application/json' --header 'Content-Type: application/json' --header 'x-app: 12332' --header 'x-channel: 10' --header 'x-device: movil' --header 'x-device-ip: 0.0.0.0' --header 'x-guid: 550e8400-e29b-41d4-a716-4466554400XX' --header 'x-medium: 131213' --header 'x-session: abs' --header 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=936fa25ced590fd0ee1ee8a1c05161ff; 04b8e4ec460e4e574dde3bf200020c26=d62fd2253c6315db0f7ea63b8d240d4b' --data '{"transactionId":"067050","header":{"bancsUser":{"teller":"00070560","terminal":"1","institution":"003","branch":"1","workstation":"1","channel":"02"}},"body":{"accntNumber1":5319747,"defInteger1":21}}'
+
+TX067116
+curl --location 'https://tnd-msa-ad-bnc-customers-profile-enp.apps.ocpdev.uiotest.bpichinchatest.test/bancs/trx/067116' --header 'Accept: application/json' --header 'Content-Type: application/json' --header 'x-app: 12332' --header 'x-channel: 10' --header 'x-device: movil' --header 'x-device-ip: 0.0.0.0' --header 'x-guid: 550e8400-e29b-41d4-a716-4466554400XX' --header 'x-medium: 131213' --header 'x-session: abs' --header 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=936fa25ced590fd0ee1ee8a1c05161ff; 04b8e4ec460e4e574dde3bf200020c26=d62fd2253c6315db0f7ea63b8d240d4b; 7435db4d20daed63b0bd6cc2cc8bf1cf=e8517db1193e773cf4b5346039003f40' --data '{"transactionId":"067116","header":{"bancsUser":{"teller":"00070560","terminal":"1","institution":"003","branch":"1","workstation":"1","channel":"02"}},"body":{"accntnumber1":"5319747","accntClassif":"1","fullname":"ZAMBRANO CEDENO SANTA-NARCISA DE JESUS","compcommlname":null,"date1":"01011901","custvisatype":null,"date2":"31122010","custcensno":null,"date3":"31122010","custage":51,"date4":"11071958","date5":"99999999","addidtype":null,"addidno":null,"statusseperation":"1","levformedu":"3000","profdeg":"5004","htype1":"1","worksitstat":"0","workreltype":"FI","bosssurname":null,"noofficesofcust":null,"officialclass":"003132","kindofcomp":null,"sectorofecon":"26000","secsectecon":null,"econactivity":"26916","sececoactivity":null,"custdesignation":null,"totalasset":0,"prodassets":0,"totalliability":0,"annualsales":0,"annualexpenditure":0,"subscribedpaidcap":0,"date6":"99999999","totalequity":0,"date7":"99999999","contactschedule":null,"compwebadd":null,"tradeunionassoc":"000","ssn":null,"employersssn":null,"politicalparty":null,"executivestate":null,"hobbies":null,"ststuslinkedcust":null,"guarstat":null,"date8":"99999999","linkagereason":"NV0000","specialvatpayer":"N","bankafftcomp":"ZZ","accofficerbranch":"00071","custrelbra":null,"regionalBranch":null,"nameofcustcreator":"00006699","usernamelastcustupdt":"00006699","accoffcrscmnt":null,"accoffcrscustcmnt":null,"accoffcrsaddcmnt":null,"ecogrpname":null,"ecogrpsbscode":null,"subsegmentdet":"057","custniche":null,"custacctofficer":"00002044","prodexpertname":null,"producthandled":null,"date9":"99999999","decsettle":"1","date10":"99999999","registarystatus":null,"ratinriskclearance":null,"extloanrating":null,"date11":"99999999","arrearbal":0,"totalarrearsdirect":0,"totalmonthlyinstallment":0,"custloanratsbs":null,"date12":"99999999","intloanrat":null,"noncomplianceprob":null,"date13":"99999999","industryrating":null,"custcity":null,"custcoun":null,"bprovinvce":null,"cpurp":null,"mbook":"N","rlegaldeed":null,"housebasic":null,"landlordname":null,"chousing":null,"timeres":null,"secclient":null,"spousename":null,"stockholddevice":null,"typestkholdidnt":null,"numstkholdidnt":null,"sfullname":null,"shareperc":0,"learn":null,"cname":null,"cbankorigin":"BP","clientcreate":"06","directport":0,"totalport":0,"commdirectport":0,"linktype":null,"date14":"99999999","lastupdteller":70560,"date15":"21042026","noOfEmployees":0,"income":null,"worksitstat12":null,"worksitstat21":null,"worksitstat22":null,"worksitstat23":null,"worksitstat24":null,"hobbies2":null,"hobbies3":null,"hobbies4":null,"hobbies5":null,"housebasic2":null,"housebasic3":null,"housebasic4":null,"busiprofname":null,"date16":"99999999","addidtype2":null,"addidnum2":null,"tipoidconyuge":null,"numidconyuge":null,"partidopolitico":"N","propRelCom":"7","clienteAccionistaBanco":"N"}}'
+
+TX067153
+curl --location 'https://tnd-msa-ad-bnc-customers-profile-enp.apps.ocpdev.uiotest.bpichinchatest.test/bancs/trx/067153' --header 'Accept: application/json' --header 'Content-Type: application/json' --header 'x-app: 12332' --header 'x-channel: 10' --header 'x-device: movil' --header 'x-device-ip: 0.0.0.0' --header 'x-guid: 550e8400-e29b-41d4-a716-4466554400XX' --header 'x-medium: 131213' --header 'x-session: abs' --header 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=936fa25ced590fd0ee1ee8a1c05161ff; 04b8e4ec460e4e574dde3bf200020c26=d62fd2253c6315db0f7ea63b8d240d4b; 7435db4d20daed63b0bd6cc2cc8bf1cf=a6b9f4bb21912aa0ec2e27549de1dc43' --data '{"transactionId":"067153","header":{"bancsUser":{"teller":"00070560","terminal":"1","institution":"003","branch":"1","workstation":"1","channel":"02"}},"body":{"cif":"5333244","operacion":"2"}}'
+
+TX64023
+curl -L 'https://tpr-msa-ad-bnc-products-details-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064023' -H 'Content-Type: application/json' -H 'x-guid: 868277447969706202601091314060461' -H 'x-channel: 01' -H 'x-medium: 010002' -H 'x-session: 904084630074040202601091314060461' -H 'x-agency: 0008' -H 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff' -d '{"transactionId":"064023","header":{"bancsUser":{"terminal":"1","institution":"003","branch":1,"workstation":1,"teller":"00070560","channel":"02","application":"02"}},"body":{"accntNumber1":3055635604,"function":"E","tlCuFlag":"C","txnCode":"0","settingNo":"01"}}'
+
+TX64020
+
+curl -L 'https://tpr-msa-ad-bnc-products-details-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064020' -H 'Content-Type: application/json' -H 'x-guid: 868277447969706202601091314060461' -H 'x-channel: 01' -H 'x-medium: 010002' -H 'x-session: 904084630074040202601091314060461' -H 'x-agency: 0008' -H 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff' -d '{"transactionId":"064020","header":{"bancsUser":{"terminal":"1","institution":"003","branch":12,"workstation":1,"teller":"00070560","channel":"y","application":"0"}},"body":{"accntNumber1":2100345688,"function":"E","tlCuFlag":"C","txnCode":"0","settingNo":"01"}}'
+
+TX 60602
+curl --location 'https://tpr-msa-ad-bnc-products-ownership-enp.apps.ocpdev.uiotest.bpichinchatest.test/bancs/trx/060602' --header 'Accept: application/json' --header 'Content-Type: application/json' --header 'x-app: 12332' --header 'x-channel: 10' --header 'x-device: movil' --header 'x-device-ip: 0.0.0.0' --header 'x-guid: 550e8400-e29b-41d4-a716-4466554400XX' --header 'x-medium: 131213' --header 'x-session: abs' --header 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=936fa25ced590fd0ee1ee8a1c05161ff; 04b8e4ec460e4e574dde3bf200020c26=d62fd2253c6315db0f7ea63b8d240d4b; cd3ebfc8ec289c22d3eb88043df625b7=bff6a407818d6039c35087ab14cbdcf1' --data '{"transactionId":"060602","header":{"bancsUser":{"teller":"00070560","terminal":"1","institution":"003","branch":"1","workstation":"1","channel":"02"}},"body":{"accntNumber1":2100036267,"defaultString1":"DEP","action":3}}'
+
+TX64014
+curl -L 'https://tpr-msa-ad-bnc-products-details-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064014' -H 'Content-Type: application/json' -H 'x-guid: 868277447969706202601091314060461' -H 'x-channel: 01' -H 'x-medium: 010002' -H 'x-session: 904084630074040202601091314060461' -H 'x-agency: 0008' -H 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff' -d '{"transactionId":"064014","header":{"bancsUser":{"terminal":"1","institution":"003","branch":1,"workstation":1,"teller":"00070560","channel":"02","application":"02"}},"body":{"accntNumber1":"3299129100","txnCode":null,"amount":null}}'
+
+TX060605
+curl --location 'https://tpr-msa-ad-bnc-products-ownership-enp.apps.ocpdev.uiotest.bpichinchatest.test/bancs/trx/060605' --header 'Accept: application/json' --header 'Content-Type: application/json' --header 'x-app: 12332' --header 'x-channel: 10' --header 'x-device: movil' --header 'x-device-ip: 0.0.0.0' --header 'x-guid: 550e8400-e29b-41d4-a716-4466554400XX' --header 'x-medium: 131213' --header 'x-session: abs' --header 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=936fa25ced590fd0ee1ee8a1c05161ff; 04b8e4ec460e4e574dde3bf200020c26=d62fd2253c6315db0f7ea63b8d240d4b' --data '{"transactionId":"060605","header":{"bancsUser":{"teller":"00099000","terminal":"14","institution":"003","branch":"14","workstation":"1","channel":""}},"body":{"accntNumber1":"00000002100392517","system1":"DEP","action1":3,"accntNumber2":"00000000000000000","linktype1":"Y","narration":null,"custNumber":"00000000002623750","custName":"","idType":"0001","idNumber":"1715897763","custNumber1":"00000000004108775","custName1":"","idType1":"0001","idNumber1":"1717788242"}}'
+
+TX064028
+curl --location 'https://tpr-msa-ad-bnc-products-relationship-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064028' \
+--header 'Content-Type: application/json' \
+--header 'x-guid: 868277447969706202601091314060461' \
+--header 'x-channel: 01' \
+--header 'x-medium: 010002' \
+--header 'x-session: 904084630074040202601091314060461' \
+--header 'x-agency: 0008' \
+--header 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff; 531e8c2784754267dc043bbb1b8d7936=94a2ed9a5adbe09207d138e0d72a4c35' \
+--data '{
+  "transactionId":"064028",
+  "header":{
+    "bancsUser":{
+      "terminal":"1",
+      "institution":"003",
+      "branch":12,
+      "workstation":1,
+      "teller":"00008002",
+      "channel":"02",
+      "application":"02"
+    }
+  },
+  "body":{
+    "accntNumber1":2100345790,
+    "function":"A",
+    "tlCuFlag":"C",
+    "txnCode":0,
+    "settingNo":1,
+    "rowNo":1,
+    "minNoSign":1,
+    "sealReq":"N",
+    "cIFNo1":"22158",
+    "cIFNo2":0,
+    "cIFNo3":0,
+    "cIFNo4":0,
+    "cIFNo5":0,
+    "cIFNo6":0,
+    "cIFNo7":0,
+    "cIFNo8":0,
+    "cIFNo9":0,
+    "cIFNo10":0
+  }
+}'
+
+
+TX64019
+curl -L 'https://tpr-msa-ad-bnc-products-details-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064019' -H 'Content-Type: application/json' -H 'x-app: 00738' -H 'x-channel: 10' -H 'x-guid: 550e8400-e29b-41d4-a716-446655440000' -H 'x-session: a9fd8deb-2aad-4d88-a7e3-d153c9e44b66' -H 'x-medium: 100002' -H 'x-device: 9939aadd00ee32' -H 'x-device-ip: 200.10.89.34' -H 'x-agency: 2188' -H 'x-geolocation: (-0.120670,-78.483371)' -H 'Cookie: c4870db2564b0c0fb5ca375515853fe1=f077998ddaec9a314621aecab1a89a72' -d '{"transactionId":"064019","header":{"bancsUser":{"teller":"00070560","terminal":"1","institution":"003","branch":"1","workstation":"1","channel":""}},"body":{"accntNumber1":"3336907304","function":"A","tlCuFlag":"C","txnCode":""}}'
+ 
+
+TX64021
+
+curl --location 'https://tpr-msa-ad-bnc-products-relationship-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064021' \
+--header 'Content-Type: application/json' \
+--header 'x-guid: 868277447969706202601091314060461' \
+--header 'x-channel: 01' \
+--header 'x-medium: 010002' \
+--header 'x-session: 904084630074040202601091314060461' \
+--header 'x-agency: 0008' \
+--header 'Cookie: 04b8e4ec460e4e574dde3bf200020c26=bcf5a2eb33b25fae11898a86879d36bf; 48b9b618eb5a88c1a356ea0d29c453bc=b904c8b00446780bdcff18e098b0c3ff; 531e8c2784754267dc043bbb1b8d7936=94a2ed9a5adbe09207d138e0d72a4c35' \
+--data '{
+    "transactionId": "064021",
+    "header": {
+        "bancsUser": {
+            "terminal": "1",
+            "institution": "003",
+            "branch": 12,
+            "workstation": 1,
+            "teller": "00008002",
+            "channel": "02",
+            "application": "02"
+        }
+    },
+    "body": {
+        "accntNumber1": 2100345790,
+        "function": "A",
+        "tlCuFlag": "C",
+        "txnCode": 0,
+        "settingNo": 1,
+        "signObvs": "Consulta parametros de firma",
+        "collection1": [
+            {
+                "status": 1,
+                "minAmt": "1.000",
+                "maxAmt": "1.000",
+                "minNoSign": 1,
+                "sealReq": "N",
+                "freq1": 5,
+                "ceil1": "1.000",
+                "perc": "100.00",
+                "freq2": 5
+            }
+        ]
+    }
+}'
+
+TX064015
+curl -L 'https://tpr-msa-ad-bnc-products-details-enp.apps.ocptest.uiotest.bpichinchatest.test/bancs/trx/064015' -H 'Content-Type: application/json' -H 'x-app: 00738' -H 'x-channel: 10' -H 'x-guid: 550e8400-e29b-41d4-a716-446655440000' -H 'x-session: a9fd8deb-2aad-4d88-a7e3-d153c9e44b66' -H 'x-medium: 100002' -H 'x-device: 9939aadd00ee32' -H 'x-device-ip: 200.10.89.34' -H 'x-agency: 2188' -H 'x-geolocation: (-0.120670,-78.483371)' -H 'Cookie: c4870db2564b0c0fb5ca375515853fe1=f077998ddaec9a314621aecab1a89a72' -d '{"transactionId":"064015","header":{"bancsUser":{"teller":"00070560","terminal":"1","institution":"003","branch":"1","workstation":"1","channel":""}},"body":{"accntNumber":2200046652,"txnCode":0,"amount":0,"tempkey":"00000022000466520000001101011051"}}'
